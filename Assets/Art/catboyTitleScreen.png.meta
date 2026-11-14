@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 52da234d1838d435e9342c84ad509f14
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4339535473213263005
+    second: catboyTitleScreen_0
+  - first:
+      213: -1693590350818132159
+    second: catboyTitleScreen_1
+  - first:
+      213: -7464768794601228079
+    second: catboyTitleScreen_2
+  - first:
+      213: 842169278212934851
+    second: catboyTitleScreen_3
+  - first:
+      213: 1505489117505713314
+    second: catboyTitleScreen_4
+  - first:
+      213: -3592433066583854866
+    second: catboyTitleScreen_5
+  - first:
+      213: -8742668571025483675
+    second: catboyTitleScreen_6
+  - first:
+      213: 5077424039382812434
+    second: catboyTitleScreen_7
+  - first:
+      213: 3489445136984134323
+    second: catboyTitleScreen_8
+  - first:
+      213: 7368670181335222687
+    second: catboyTitleScreen_9
+  - first:
+      213: 791345088953696284
+    second: catboyTitleScreen_10
+  - first:
+      213: -6814437850902358989
+    second: catboyTitleScreen_11
+  - first:
+      213: -2765680274525709841
+    second: catboyTitleScreen_12
+  - first:
+      213: 4400359016126739792
+    second: catboyTitleScreen_13
+  - first:
+      213: 8753347823598305086
+    second: catboyTitleScreen_14
+  - first:
+      213: -5328064221699244868
+    second: catboyTitleScreen_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: catboyTitleScreen_0
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 6179
+        width: 1082
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363baec9a7fd6c3c0800000000000000
+      internalID: -4339535473213263005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catboyTitleScreen_1
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 6179
+        width: 1082
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14fb4788c882f78e0800000000000000
+      internalID: -1693590350818132159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catboyTitleScreen_2
+      rect:
+        serializedVersion: 2
+        x: 4561
+        y: 6179
+        width: 1082
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d87f53d450d76890800000000000000
+      internalID: -7464768794601228079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catboyTitleScreen_3
+      rect:
+        serializedVersion: 2
+        x: 6481
+        y: 6179
+        width: 1082
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc01ac1f7cffab00800000000000000
+      internalID: 842169278212934851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catboyTitleScreen_4
+      rect:
+        serializedVersion: 2
+        x: 8401
+        y: 6179
+        width: 1082
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4f42e306294e410800000000000000
+      internalID: 1505489117505713314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catboyTitleScreen_5
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 4259
+        width: 1082
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0f6e2d82d152ec0800000000000000
+      internalID: -3592433066583854866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catboyTitleScreen_6
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 4259
+        width: 1082
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568dd0b514dcba680800000000000000
+      internalID: -8742668571025483675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catboyTitleScreen_7
+      rect:
+        serializedVersion: 2
+        x: 4561
+        y: 4259
+        width: 1082
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21701713342a67640800000000000000
+      internalID: 5077424039382812434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catboyTitleScreen_8
+      rect:
+        serializedVersion: 2
+        x: 6481
+        y: 4259
+        width: 1082
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2572d3ddffc6030800000000000000
+      internalID: 3489445136984134323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catboyTitleScreen_9
+      rect:
+        serializedVersion: 2
+        x: 8401
+        y: 4259
+        width: 1082
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99cf713d76c24660800000000000000
+      internalID: 7368670181335222687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catboyTitleScreen_10
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 2339
+        width: 1082
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10c5d96a2c6bfa00800000000000000
+      internalID: 791345088953696284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catboyTitleScreen_11
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 2339
+        width: 1082
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3341df801e04e61a0800000000000000
+      internalID: -6814437850902358989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catboyTitleScreen_12
+      rect:
+        serializedVersion: 2
+        x: 4561
+        y: 2339
+        width: 1082
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9179a81745e99d0800000000000000
+      internalID: -2765680274525709841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catboyTitleScreen_13
+      rect:
+        serializedVersion: 2
+        x: 6481
+        y: 2339
+        width: 1082
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055fb680637311d30800000000000000
+      internalID: 4400359016126739792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catboyTitleScreen_14
+      rect:
+        serializedVersion: 2
+        x: 8401
+        y: 2339
+        width: 1082
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ff305e7732a7970800000000000000
+      internalID: 8753347823598305086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catboyTitleScreen_15
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 419
+        width: 1082
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcf525d1d9ee06b0800000000000000
+      internalID: -5328064221699244868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      catboyTitleScreen_0: -4339535473213263005
+      catboyTitleScreen_1: -1693590350818132159
+      catboyTitleScreen_10: 791345088953696284
+      catboyTitleScreen_11: -6814437850902358989
+      catboyTitleScreen_12: -2765680274525709841
+      catboyTitleScreen_13: 4400359016126739792
+      catboyTitleScreen_14: 8753347823598305086
+      catboyTitleScreen_15: -5328064221699244868
+      catboyTitleScreen_2: -7464768794601228079
+      catboyTitleScreen_3: 842169278212934851
+      catboyTitleScreen_4: 1505489117505713314
+      catboyTitleScreen_5: -3592433066583854866
+      catboyTitleScreen_6: -8742668571025483675
+      catboyTitleScreen_7: 5077424039382812434
+      catboyTitleScreen_8: 3489445136984134323
+      catboyTitleScreen_9: 7368670181335222687
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
