@@ -9,7 +9,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public Animator transition;
+    //public Animator transition;
     public float transitionTime = 1f;
 
     public GameObject myTextbox;
@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator LoadLevel(int levelIndex)
     {
-        transition.SetTrigger("start");
+        //transition.SetTrigger("start");
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(levelIndex);
     }

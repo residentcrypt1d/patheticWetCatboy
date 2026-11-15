@@ -51,5 +51,51 @@ chip: yeah, that's alright.
 ===
 title: IntroductionPart2
 ---
+<<chipPeace characterSprite>>
+chip: so uhhhm what am i doin here
+
+<<luciBack characterSprite>>
+luci: haha please help me clean up my apartment :pleadingemoji:
+
+===
+title: AppleSpawn
+---
+// dialogue goes here
+
+===
+title: EnvelopeSpawn
+---
+// dialogue goes here
+
+===
+title: BallSpawn
+---
+// dialogue goes here
+
+===
+title: ShowerAvailable
+---
+// dialogue goes here
+
+===
+title: ShowerStart
+---
+// dialogue goes here
+
+===
+title: ShowerComplete
+---
+// dialogue goes here
+
+===
+title: ReturnToRagdollScene
+---
+// dialogue goes here
+
+===
+---
+title: BedroomAvailable
+---
+// dialogue goes here
 
 ===
