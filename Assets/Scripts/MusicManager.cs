@@ -50,7 +50,7 @@ public class MusicManager : MonoBehaviour
     {
         myMusic = GetComponent<AudioSource>();
         myMusic.clip = mxTitle;
-        myMusic.Play();
+        //myMusic.Play();
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)

@@ -1,4 +1,37 @@
-﻿title: IntroductionPart1
+﻿title: IntroductionPart0
+---
+<<empty characterSprite>>
+chip: this place is fucking miserable.
+chip: you get up at the asscrack of dawn and work your tail off until the sun sets, and for what?
+chip: you'll only ever be one measly little fish in a sea of people. or a number on some rich bastard's spreadsheet.
+
+chip: nobody cares about who you are, or how you're doing, no, none of that. it's just about what you can do for them.
+chip: and even if you do everything right, you STILL get fucked! 
+
+narrator: chip kicks a rock while trudging down the sidewalk.
+
+chip: ...
+chip: god.
+chip: this shit blows. 
+chip: like, in the worst way.
+
+chip: depressed, single, AND laid off... yeah, what more could a guy want?
+
+narrator: he sighs as he pulls a sleek black smartphone out of his back pocket and enters his passcode.
+
+<<playerPhone characterSprite>>
+chip: but whatever. he said he was at 38 hemingway street... "my address... see you at 2". with a purple heart at the end. ha.
+
+<<empty characterSprite>>
+chip: hopefully this'll get my mind off of all that garbage from earlier.
+chip: alright, that's 86 hemingway. 
+chip: ... and that's 90. 
+chip: ...
+chip: ... ... ...
+chip: shit, i'm totally going in the wrong direction. 
+
+===
+title: IntroductionPart1
 ---
 <<chipNeutral characterSprite>>
 chip: 34... 36... there we go, 38! and the apartment number was...
@@ -56,6 +89,12 @@ chip: so uhhhm what am i doin here
 
 <<luciBack characterSprite>>
 luci: haha please help me clean up my apartment :pleadingemoji:
+
+===
+title: RagdollTime
+---
+<<empty characterSprite>>
+lucifer: so like. haha . welcome to my apartment or whateva
 
 ===
 title: AppleSpawn
