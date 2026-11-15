@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 52da234d1838d435e9342c84ad509f14
+guid: 9722d1781546b49fcb5c78b05e1a1860
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4339535473213263005
-    second: catboyTitleScreen_0
+      213: -7397222314176766298
+    second: catboySprite_0
   - first:
-      213: -1693590350818132159
-    second: catboyTitleScreen_1
+      213: -8554048054605960763
+    second: catboySprite_1
   - first:
-      213: -7464768794601228079
-    second: catboyTitleScreen_2
+      213: -5495433836030417340
+    second: catboySprite_2
   - first:
-      213: 842169278212934851
-    second: catboyTitleScreen_3
+      213: -3181876281847001477
+    second: catboySprite_3
   - first:
-      213: 1505489117505713314
-    second: catboyTitleScreen_4
+      213: -3155073950984509094
+    second: catboySprite_4
   - first:
-      213: -3592433066583854866
-    second: catboyTitleScreen_5
+      213: -7154491634970787752
+    second: catboySprite_5
   - first:
-      213: -8742668571025483675
-    second: catboyTitleScreen_6
+      213: -833548237257446506
+    second: catboySprite_6
   - first:
-      213: 5077424039382812434
-    second: catboyTitleScreen_7
+      213: -2558549576031913537
+    second: catboySprite_7
   - first:
-      213: 3489445136984134323
-    second: catboyTitleScreen_8
+      213: 6760547131837323776
+    second: catboySprite_8
   - first:
-      213: 7368670181335222687
-    second: catboyTitleScreen_9
+      213: -5465512152506008732
+    second: catboySprite_9
   - first:
-      213: 791345088953696284
-    second: catboyTitleScreen_10
+      213: 1884812109515433102
+    second: catboySprite_10
   - first:
-      213: -6814437850902358989
-    second: catboyTitleScreen_11
+      213: 5861533919085570278
+    second: catboySprite_11
   - first:
-      213: -2765680274525709841
-    second: catboyTitleScreen_12
+      213: -8827874881553013969
+    second: catboySprite_12
   - first:
-      213: 4400359016126739792
-    second: catboyTitleScreen_13
+      213: -5008467130663102859
+    second: catboySprite_13
   - first:
-      213: 8753347823598305086
-    second: catboyTitleScreen_14
+      213: 3771617903011379821
+    second: catboySprite_14
   - first:
-      213: -5328064221699244868
-    second: catboyTitleScreen_15
+      213: 5822163267286720574
+    second: catboySprite_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -158,13 +158,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: catboyTitleScreen_0
+      name: catboySprite_0
       rect:
         serializedVersion: 2
-        x: 721
-        y: 6179
-        width: 1082
-        height: 765
+        x: 0
+        y: 4867
+        width: 1921
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 363baec9a7fd6c3c0800000000000000
-      internalID: -4339535473213263005
+      spriteID: 6ae96e65f79c75990800000000000000
+      internalID: -7397222314176766298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catboyTitleScreen_1
+      name: catboySprite_1
       rect:
         serializedVersion: 2
-        x: 2641
-        y: 6179
-        width: 1082
-        height: 765
+        x: 1919
+        y: 4867
+        width: 1922
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 14fb4788c882f78e0800000000000000
-      internalID: -1693590350818132159
+      spriteID: 5c927999d9ae94980800000000000000
+      internalID: -8554048054605960763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catboyTitleScreen_2
+      name: catboySprite_2
       rect:
         serializedVersion: 2
-        x: 4561
-        y: 6179
-        width: 1082
-        height: 765
+        x: 3839
+        y: 4867
+        width: 1922
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +217,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d87f53d450d76890800000000000000
-      internalID: -7464768794601228079
+      spriteID: 446aebcca0c4cb3b0800000000000000
+      internalID: -5495433836030417340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catboyTitleScreen_3
+      name: catboySprite_3
       rect:
         serializedVersion: 2
-        x: 6481
-        y: 6179
-        width: 1082
-        height: 765
+        x: 5759
+        y: 4867
+        width: 1922
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3cc01ac1f7cffab00800000000000000
-      internalID: 842169278212934851
+      spriteID: b7ec4454164b7d3d0800000000000000
+      internalID: -3181876281847001477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catboyTitleScreen_4
+      name: catboySprite_4
       rect:
         serializedVersion: 2
-        x: 8401
-        y: 6179
-        width: 1082
-        height: 765
+        x: 7679
+        y: 4867
+        width: 1921
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +261,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2a4f42e306294e410800000000000000
-      internalID: 1505489117505713314
+      spriteID: a59ea7735fce634d0800000000000000
+      internalID: -3155073950984509094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catboyTitleScreen_5
+      name: catboySprite_5
       rect:
         serializedVersion: 2
-        x: 721
-        y: 4259
-        width: 1082
-        height: 765
+        x: 0
+        y: 3282
+        width: 1921
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee0f6e2d82d152ec0800000000000000
-      internalID: -3592433066583854866
+      spriteID: 850001d93c326bc90800000000000000
+      internalID: -7154491634970787752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catboyTitleScreen_6
+      name: catboySprite_6
       rect:
         serializedVersion: 2
-        x: 2641
-        y: 4259
-        width: 1082
-        height: 765
+        x: 1919
+        y: 3282
+        width: 1922
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 568dd0b514dcba680800000000000000
-      internalID: -8742668571025483675
+      spriteID: 69bed176b44ae64f0800000000000000
+      internalID: -833548237257446506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catboyTitleScreen_7
+      name: catboySprite_7
       rect:
         serializedVersion: 2
-        x: 4561
-        y: 4259
-        width: 1082
-        height: 765
+        x: 3839
+        y: 3282
+        width: 1922
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21701713342a67640800000000000000
-      internalID: 5077424039382812434
+      spriteID: fb9346467b43e7cd0800000000000000
+      internalID: -2558549576031913537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catboyTitleScreen_8
+      name: catboySprite_8
       rect:
         serializedVersion: 2
-        x: 6481
-        y: 4259
-        width: 1082
-        height: 765
+        x: 5759
+        y: 3282
+        width: 1922
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b2572d3ddffc6030800000000000000
-      internalID: 3489445136984134323
+      spriteID: 00a13782cc942dd50800000000000000
+      internalID: 6760547131837323776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catboyTitleScreen_9
+      name: catboySprite_9
       rect:
         serializedVersion: 2
-        x: 8401
-        y: 4259
-        width: 1082
-        height: 765
+        x: 7679
+        y: 3282
+        width: 1921
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f99cf713d76c24660800000000000000
-      internalID: 7368670181335222687
+      spriteID: 46b7c42a7a99624b0800000000000000
+      internalID: -5465512152506008732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catboyTitleScreen_10
+      name: catboySprite_10
       rect:
         serializedVersion: 2
-        x: 721
-        y: 2339
-        width: 1082
-        height: 765
+        x: 0
+        y: 1697
+        width: 1921
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c10c5d96a2c6bfa00800000000000000
-      internalID: 791345088953696284
+      spriteID: e84a500a0a2382a10800000000000000
+      internalID: 1884812109515433102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catboyTitleScreen_11
+      name: catboySprite_11
       rect:
         serializedVersion: 2
-        x: 2641
-        y: 2339
-        width: 1082
-        height: 765
+        x: 1919
+        y: 1697
+        width: 1922
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3341df801e04e61a0800000000000000
-      internalID: -6814437850902358989
+      spriteID: 6e8affd2b0a585150800000000000000
+      internalID: 5861533919085570278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catboyTitleScreen_12
+      name: catboySprite_12
       rect:
         serializedVersion: 2
-        x: 4561
-        y: 2339
-        width: 1082
-        height: 765
+        x: 3839
+        y: 1697
+        width: 1922
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe9179a81745e99d0800000000000000
-      internalID: -2765680274525709841
+      spriteID: f23607b31961d7580800000000000000
+      internalID: -8827874881553013969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catboyTitleScreen_13
+      name: catboySprite_13
       rect:
         serializedVersion: 2
-        x: 6481
-        y: 2339
-        width: 1082
-        height: 765
+        x: 5759
+        y: 1697
+        width: 1922
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 055fb680637311d30800000000000000
-      internalID: 4400359016126739792
+      spriteID: 5761b9f3ea95e7ab0800000000000000
+      internalID: -5008467130663102859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catboyTitleScreen_14
+      name: catboySprite_14
       rect:
         serializedVersion: 2
-        x: 8401
-        y: 2339
-        width: 1082
-        height: 765
+        x: 7679
+        y: 1697
+        width: 1921
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3ff305e7732a7970800000000000000
-      internalID: 8753347823598305086
+      spriteID: d6a3f79ff7a775430800000000000000
+      internalID: 3771617903011379821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catboyTitleScreen_15
+      name: catboySprite_15
       rect:
         serializedVersion: 2
-        x: 721
-        y: 419
-        width: 1082
-        height: 765
+        x: 0
+        y: 112
+        width: 1921
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,8 +503,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cbcf525d1d9ee06b0800000000000000
-      internalID: -5328064221699244868
+      spriteID: e30e3faf4aa7cc050800000000000000
+      internalID: 5822163267286720574
       vertices: []
       indices: 
       edges: []
@@ -523,22 +523,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      catboyTitleScreen_0: -4339535473213263005
-      catboyTitleScreen_1: -1693590350818132159
-      catboyTitleScreen_10: 791345088953696284
-      catboyTitleScreen_11: -6814437850902358989
-      catboyTitleScreen_12: -2765680274525709841
-      catboyTitleScreen_13: 4400359016126739792
-      catboyTitleScreen_14: 8753347823598305086
-      catboyTitleScreen_15: -5328064221699244868
-      catboyTitleScreen_2: -7464768794601228079
-      catboyTitleScreen_3: 842169278212934851
-      catboyTitleScreen_4: 1505489117505713314
-      catboyTitleScreen_5: -3592433066583854866
-      catboyTitleScreen_6: -8742668571025483675
-      catboyTitleScreen_7: 5077424039382812434
-      catboyTitleScreen_8: 3489445136984134323
-      catboyTitleScreen_9: 7368670181335222687
+      catboySprite_0: -7397222314176766298
+      catboySprite_1: -8554048054605960763
+      catboySprite_10: 1884812109515433102
+      catboySprite_11: 5861533919085570278
+      catboySprite_12: -8827874881553013969
+      catboySprite_13: -5008467130663102859
+      catboySprite_14: 3771617903011379821
+      catboySprite_15: 5822163267286720574
+      catboySprite_2: -5495433836030417340
+      catboySprite_3: -3181876281847001477
+      catboySprite_4: -3155073950984509094
+      catboySprite_5: -7154491634970787752
+      catboySprite_6: -833548237257446506
+      catboySprite_7: -2558549576031913537
+      catboySprite_8: 6760547131837323776
+      catboySprite_9: -5465512152506008732
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
