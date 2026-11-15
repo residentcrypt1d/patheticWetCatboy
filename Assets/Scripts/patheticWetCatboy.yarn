@@ -28,63 +28,81 @@ chip: alright, that's 86 hemingway.
 chip: ... and that's 90. 
 chip: ...
 chip: ... ... ...
-chip: shit, i'm totally going in the wrong direction. 
+chip: shit, i'm totally going in the wrong direction.
 
 ===
 title: IntroductionPart1
 ---
 <<chipNeutral characterSprite>>
-chip: 34... 36... there we go, 38! and the apartment number was...
+chip: 34... 36... 
+chip: there we go, 38. finally. and he said the apartment number was...
 
+<<empty characterSprite>>
+narrator: he checks his phone again.
+
+<<chipNeutral characterSprite>>
 chip: 20. cool.
 
 <<empty characterSprite>>
-narrator: you push the "20" button on the panel next to the door and within seconds you hear a buzz.
+narrator: chip pushes the "20" button on the panel next to the door and within seconds, hears a buzz.
 
 <<chipNeutral characterSprite>>
-chip: damn, okay, that was fast.
+chip: damn, okay, that was fast. someone's desperate...
 
 <<empty characterSprite>>
-narrator: the front door of the apartment building unlocks with a nice, crisp click and with that, you push it open.
-
-narrator: now that you're inside, there's nothing that particularly catches your attention about this place, definitely not upon first glance.
-
-narrator: there are a bunch of taiga packages lying around the mailroom, layers of dust caking the staircase...
-
-narrator: the usual. it's like looking at a copy of your own building's lobby, kinda.
-
-narrator: speaking of stairs, though... what floor was this guy on again? you walk a little further into the hallway a ways in from the lobby.
+narrator: the front door of the apartment building unlocks with a nice, crisp click. chip pushes it open.
 
 <<chipNeutral characterSprite>>
-chip: elevator...?
+chip: oh thank god, it's warm in here.
 
 <<empty characterSprite>>
-narrator: nope. tough luck, you're taking the stairs.
+narrator: looking around, he doesn't see anything particularly eyecatching. couple of taiga packages lying on the ground, dust piling up in the corners...
+narrator: it's almost like looking at a palette-swapped copy of his own apartment building. except...
 
 <<chipNeutral characterSprite>>
-chip: fuck. fine.
+chip: what floor was he on again? i'm only seeing 1-5 on the doors down here, so logically speaking... it'd at least be the fifth floor.
+chip: now the real question is, does this place have an elevator?
 
 <<empty characterSprite>>
-narrator: begrudgingly, you ascend the six flights of stairs and wind up face to face with apartment 20.
+narrator: upon further investigation, chip discovers that there is not, in fact, an elevator. tough luck.
 
-narrator: before you even get a chance to knock, you notice the door is cracked just a hair. so, naturally, you push it open.
+<< chipNeutral characterSprite>>
+chip: fuck. fine, this better be worth it.
 
-<<luciBack characterSprite>>
-lucifer: hey! oh wow, i didn't think you'd get here this quickly!   
+<<empty characterSprite>>
+narrator: he begrudgingly ascends five flights of stairs and winds up face to face with a quaint wooden door marked "20". it's cracked open just a hair.
+narrator: out of respect, chip decides to knock anyway.
 
-<<luciNeutral characterSprite>>
-lucifer: um... yeah, make yourself at home. i didn't really get the chance to clean up much before you got here but...
- 
-lucifer: i hope that's alright. it's not that bad, just messy. you know how it is.
+<<chipNeutral characterSprite>>
+chip: hey, luce? or, luke? not sure how you'd rather–
 
-<<chipPeace characterSprite>>
-chip: yeah, that's alright.
+<<empty characterSprite>>
+narrator: the door swings open, cutting him off mid-sentence.
+
+<<luciGreeting characterSprite>>
+lucifer: oh! hey! wow, i didn't think you'd get here so quickly. um, hi! haha! 
+
+<<chipNeutral characterSprite>>
+chip: hey–
+
+<<luciGreeting characterSprite>>
+lucifer: and i gueeeeess "luce" would be closer, but like, you can just call me luci. or lucifer. or whatever you want.
+
+<<chipNeutral characterSprite>>
+chip: cool. so... can i come in?
+
+<<luciGreeting characterSprite>>
+lucifer: oh yeah! make yourself at home. but, uh... i didn't really get the chance to clean up before you got here.
+lucifer: hope that's alright. it's not thaaaat bad, just messy, haha! you know how it is sometimes. with work and stuff.
+
+<<chipNeutral characterSprite>>
+chip: mm, yeah, i hear you.
 
 
 ===
 title: IntroductionPart2
 ---
-<<chipPeace characterSprite>>
+<<chipNeutral characterSprite>>
 chip: so uhhhm what am i doin here
 
 <<luciBack characterSprite>>

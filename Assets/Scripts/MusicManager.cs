@@ -50,14 +50,14 @@ public class MusicManager : MonoBehaviour
     {
         myMusic = GetComponent<AudioSource>();
         myMusic.clip = mxTitle;
-        //myMusic.Play();
+        myMusic.Play();
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
-            StartCoroutine(FadeOut(myMusic, 5f));
+            StartCoroutine(FadeOut(myMusic, 2.5f));
             
             //AudioClip thisLevelMusic = mxMainLevel;
             //myMusic.clip = thisLevelMusic;
@@ -67,7 +67,7 @@ public class MusicManager : MonoBehaviour
 
         if (SceneManager.GetActiveScene().buildIndex == 4)
         {
-            StartCoroutine(FadeOut(myMusic, 5f));
+            StartCoroutine(FadeOut(myMusic, 3f));
             //StopMusic();
         }
 
