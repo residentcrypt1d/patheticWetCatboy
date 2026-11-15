@@ -74,7 +74,7 @@ narrator: he begrudgingly ascends five flights of stairs and winds up face to fa
 narrator: out of respect, chip decides to knock anyway.
 
 <<chipNeutral characterSprite>>
-chip: hey, luce? or, luke? not sure how you'd rather–
+chip: hey, luce? or, luke? not sure how you'd say–
 
 <<empty characterSprite>>
 narrator: the door swings open, cutting him off mid-sentence.
@@ -89,7 +89,7 @@ chip: hey–
 lucifer: and i gueeeeess "luce" would be closer, but like, you can just call me luci. or lucifer. or whatever you want.
 
 <<chipNeutral characterSprite>>
-chip: cool. so... can i come in?
+chip: sick. so... can i come in?
 
 <<luciGreeting characterSprite>>
 lucifer: oh yeah! make yourself at home. but, uh... i didn't really get the chance to clean up before you got here.
@@ -103,15 +103,49 @@ chip: mm, yeah, i hear you.
 title: IntroductionPart2
 ---
 <<chipNeutral characterSprite>>
-chip: so uhhhm what am i doin here
+chip: so, luce, when we talked earlier you said that you wanted me to–
+
+<<luciNeutral characterSprite>>
+lucifer: help me organize this place!
+
+<<chipNeutral characterSprite>>
+chip: pause. what?
+
+<<luciNeutral characterSprite>>
+lucifer: yeah... it's just been so hard lately, like–
+
+<<chipNeutral characterSprite>>
+chip: no, no, i understand that. but we NEVER talked about cleaning.
+
+<<luciNeutral characterSprite>>
+lucifer: oh. hm. must've been someone else then.
+lucifer: by the way, uh, feel free to take that sweater off. my heater's busted, it's been hot as hell for forever and my landlord's, like, not responding.
+
+<<chipNeutral characterSprite>>
+chip: ... right.
+
+<<chipShirtless characterSprite>>
+chip: sorry about the heater.
 
 <<luciBack characterSprite>>
-luci: haha please help me clean up my apartment :pleadingemoji:
+lucifer: yeah. weeeeeeell, since you're here and you look like a big, strong, capable man, why don't you... help me out anyway?
+
+<<chipShirtless characterSprite>>
+chip: hmm... depends. what's in it for me?
+
+<<luciPoint characterSprite>>
+narrator: lucifer points at himself and smiles, garnering a chuckle from chip.
+
+<<chipPeace characterSprite>>
+chip: *sigh* the faster we finish cleaning, the sooner we can get down to business. where do you wanna start?
+
+<<empty characterSprite>>
+freddie: guys it's the physics part of the physics game whoaaaa (cheer)
 
 ===
 title: RagdollTime
 ---
-<<empty characterSprite>>
+<<luciBack characterSprite>>
 lucifer: so like. haha . welcome to my apartment or whateva
 
 ===

@@ -61,4 +61,20 @@ public class SpriteController : MonoBehaviour
         newSprite = characterSprites[6];
         gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
     }
+    
+    [YarnCommand("chipShirtless")]
+    public void ChipShirtless()
+    {
+        Debug.Log("the sexyman");
+        newSprite = characterSprites[7];
+        gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
+    }
+    
+    [YarnCommand("luciPoint")]
+    public void LuciPoint()
+    {
+        Debug.Log("the sexyman");
+        newSprite = characterSprites[8];
+        gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
+    }
 }

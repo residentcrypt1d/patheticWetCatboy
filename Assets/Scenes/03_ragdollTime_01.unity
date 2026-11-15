@@ -331,7 +331,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &809100642
 SpriteRenderer:
   serializedVersion: 2
@@ -1309,6 +1309,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 257253963831214508, guid: 08dc8da68dedf45238fb667171e1b422, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4229808351018836044, guid: addcf4a64c1dc4a4bbb8ca11125e2b05, type: 2}
+    - target: {fileID: 555176949105445270, guid: 08dc8da68dedf45238fb667171e1b422, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2929145719722028597, guid: c271a57610dc14a41ad8e6bd44dca434, type: 2}
     - target: {fileID: 1454166617232905700, guid: 08dc8da68dedf45238fb667171e1b422, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.13
@@ -1349,9 +1357,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1549557761552745682, guid: 08dc8da68dedf45238fb667171e1b422, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5731989355351532574, guid: ab2a1767244f841d190b12eb2177ed45, type: 2}
     - target: {fileID: 2102001221358410141, guid: 08dc8da68dedf45238fb667171e1b422, type: 3}
       propertyPath: m_Name
       value: Body
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989353773344236740, guid: 08dc8da68dedf45238fb667171e1b422, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989353773344236740, guid: 08dc8da68dedf45238fb667171e1b422, type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989353773344236740, guid: 08dc8da68dedf45238fb667171e1b422, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3411532988137526432, guid: 1b17bd257a79c45b1a2226bb5dd7ab3e, type: 2}
+    - target: {fileID: 4989353773344236740, guid: 08dc8da68dedf45238fb667171e1b422, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

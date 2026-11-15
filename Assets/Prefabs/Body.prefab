@@ -1860,7 +1860,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4229808351018836044, guid: addcf4a64c1dc4a4bbb8ca11125e2b05, type: 2}
+  m_Sprite: {fileID: -1402527219847881686, guid: d53708463d87b4e599b8f7b9e8abdb7a, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1883,7 +1883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoodleStudio95.DoodleAnimator
   m_States: []
-  m_File: {fileID: 11400000, guid: addcf4a64c1dc4a4bbb8ca11125e2b05, type: 2}
+  m_File: {fileID: 11400000, guid: d53708463d87b4e599b8f7b9e8abdb7a, type: 2}
   speed: 1
   m_Settings:
     randomizeOnStart: 1
@@ -2709,7 +2709,7 @@ HingeJoint2D:
   m_UseLimits: 1
   m_AngleLimits:
     m_LowerAngle: 0
-    m_UpperAngle: 45
+    m_UpperAngle: 61.940563
 --- !u!1 &6117558432511164204
 GameObject:
   m_ObjectHideFlags: 0
