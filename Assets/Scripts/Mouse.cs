@@ -7,6 +7,7 @@ public class CursorControl : MonoBehaviour
 {
     public LayerMask clothesLayer;
     public LayerMask bodyLayer;
+    public LayerMask itemLayer;
     public LayerMask appleLayer;
     public LayerMask brickLayer;
     public LayerMask clarinetLayer;
@@ -42,6 +43,13 @@ public class CursorControl : MonoBehaviour
             }
 
             hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, bodyLayer);
+            if (hit.collider != null)
+            {
+                grabbedObject = hit.rigidbody;
+                // change face sprite
+            }
+            
+            hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, itemLayer);
             if (hit.collider != null)
             {
                 grabbedObject = hit.rigidbody;
@@ -108,28 +116,28 @@ public class CursorControl : MonoBehaviour
     void AppleDialogue()
     {
         Debug.Log("u grab apple!");
-        dr.StartDialogue("placeholder");
+        dr.StartDialogue("AppleInteract");
         appleCalled = true;
     }
 
     void BrickDialogue()
     {
         Debug.Log("u grab brick!");
-        dr.StartDialogue("placeholder");
+        dr.StartDialogue("BrickInteract");
         brickCalled = true;
     }
 
     void EnvelopeDialogue()
     {
         Debug.Log("u grab envelope!");
-        dr.StartDialogue("placeholder");
+        dr.StartDialogue("EnvelopeInteract");
         envelopeCalled = true;
     }
 
     void ClarinetDialogue()
     {
         Debug.Log("u grab clarinet!");
-        dr.StartDialogue("placeholder");
+        dr.StartDialogue("ClarinetInteract");
         clarinetCalled = true;
     }
 }

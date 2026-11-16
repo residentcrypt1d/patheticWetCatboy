@@ -156,6 +156,7 @@ freddie: guys it's the physics part of the physics game whoaaaa (cheer)
 ===
 title: RagdollTime
 ---
+<<empty characterSprite>>
 lucifer: okay, so we're gonna start here! in the living room. 
 
 chip: mhm... this looks manageable.
@@ -169,22 +170,61 @@ lucifer: hahaha, kinda! i wanna watch you get all sweaty carrying my stuff aroun
 ===
 title: AppleInteract
 ---
-// dialogue goes here
+narrator: chip picks up the apple and rotates it around in his hand.
+lucifer: ohh, that was gonna be my lunch today! loooove those things.
+chip: this was... this isn't a meal, this is a snack at best.
+lucifer: well, it's a meal when you can't afford anything else. ooh, wait, i have a question for you!
+chip: ask away.
+lucifer: favorite type of apple? there's a wrong answer, by the way. several wrong answers. sooo many wrong answers.
+chip: can't say i have strong apple opinions, but i guess i fuck with honeycrisps. and whatever the yellow ones are called.
+lucifer: honeycrisp is a good answer... ehehehehe
+lucifer: oh, you can keep going. i'll stop distracting you!
 
 ===
 title: BrickInteract
 ---
-// dialogue goes here
+chip: a brick? why do you just have a brick?
+lucifer: that thing was my doorstop for the loooongest time.
+lucifer: like, i'd go outside to take the trash out and would leave the door propped open so i could, like, come back in. and not have to bring my keys.
+chip: your door auto-locks?
+lucifer: yeah, it's kind of annoying. do you know how many times i've been locked out?
+narrator: chip chuckles.
+chip: loads of times, i'm guessing. what made you retire the brick?
+lucifer: someone came in while i was downstairs.
+chip: oh.
+lucifer: ... yeah.
 
 ===
 title: ClarinetInteract
 ---
-// dialogue goes here
+narrator: it's a clarinet! it looks well-taken care of, as far as chip's aware.
+chip: does this thing have a case?
+lucifer: oh! yeah, yeah, it's over in my room. if you want to leave that out, that's fine by me.
+lucifer: i was just working on some stuff for class.
+chip: ...class?
+lucifer: grad school. uh, getting my master's in clarinet performance. 
+chip: ohhh, that's cool. wouldn't have taken you for an orchestra guy. you seem more like a my chemical romance type.
+lucifer: haha, hey, i contain multitudes. who's to say i can't be both?
+chip: fair enough. yeah, i played cello back in high school. a lifetime ago.
+lucifer: oh, please, "a lifetime"? you don't look THAT old.
+chip: thank– pause. i don't look "THAT" old? what's that supposed to mean?
+narrator: lucifer shrugs, attempting to suppress a smile.
 
 ===
 title: EnvelopeInteract
 ---
-// dialogue goes here
+narrator: chip picks up an envelope addressed to one "lucifer devoy". from the general hospital a little ways away.
+narrator: it's been opened and haphazardly resealed. he holds it up, in between two fingers.
+chip: yo, luce, where do you want me to put this?
+lucifer: ohhhhh that... uh, just leave it on the desk. i've still gotta pay that.
+chip: ah, right.
+lucifer: yeah, they've been up my ass for a couple of weeks, but i dunno what they want me to do, like...
+lucifer: i can't pull a couple thousand dollars out of thin air, y'know?
+chip: yikes. no, that's insane. uh, i'll leave it there, then.
+lucifer: aw, you're not even gonna offer to pay it off for me?
+lucifer: it's like you don't even care...
+chip: i'm not your sugar daddy, dude, my bank account is in the negatives.
+lucifer: wowww we're twinningggg!
 
 ===
 title: KitchenUnlock
