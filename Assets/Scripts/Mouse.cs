@@ -6,7 +6,8 @@ public class CursorControl : MonoBehaviour
 {
     public LayerMask clothesLayer;
     public LayerMask bodyLayer;
-    public DoodleAnimator shirtSprite;
+    public LayerMask itemLayer;
+    //public DoodleAnimator luciFaceSprite;
     public Rigidbody2D grabbedObject;
     private Vector2 mousePosition;
     
@@ -26,6 +27,12 @@ public class CursorControl : MonoBehaviour
             if (hit.collider != null)
             {
                 grabbedObject = hit.rigidbody;
+                // change face sprite
+            }
+            hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, itemLayer);
+            if (hit.collider != null)
+            {
+                grabbedObject = hit.rigidbody;
             }
         }
         else if (Mouse.current.leftButton.wasReleasedThisFrame && grabbedObject != null)
@@ -40,6 +47,27 @@ public class CursorControl : MonoBehaviour
         {
             grabbedObject.MovePosition(mousePosition);
         }
+    }
+
+    /*void LuciShock(GameObject hitObj)
+    {
+        if (hitObj.CompareTag("lucifer"))
+        {
+            luciFaceSprite.File = hitObj.GetComponent<DoodleAnimator>().File;
+        }
+    }
+    
+    void LuciBlush(BoxCollider2D umm)
+    {
+        if (umm.CompareTag("square"))
+        {
+            luciFaceSprite.File = umm.GetComponent<DoodleAnimator>().File;
+        }
+    }
+
+    void LuciNeutral(GameObject hitObj)
+    {
+        luciFaceSprite.File = hitObj.GetComponent<DoodleAnimator>().File;
     }
 
     /*void PutOnClothes(GameObject hitObj) // takes one (1) parameter, the thing we clicked on

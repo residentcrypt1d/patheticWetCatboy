@@ -10,38 +10,28 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     //public Animator transition;
+    
     public float transitionTime = 1f;
 
-    public GameObject myTextbox;
+    //public GameObject myTextbox;
     
     void Start()
     {
         // we will set all necessary variables in here teehee
     }
 
-    void Introduction()
-    {
-        LoadNextLevel();
-    }
-
     void Update()
     {
         if (UnityEngine.InputSystem.Keyboard.current.wKey.wasPressedThisFrame)
         {
+            Debug.Log("you skipped a scene!");
             LoadNextLevel();
         }
 
-        if (UnityEngine.InputSystem.Keyboard.current.eKey.wasPressedThisFrame)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-    }
-    
-    public void ShowerGame()
-    {
-        {
-            LoadNextLevel();
-        }
+        //if (UnityEngine.InputSystem.Keyboard.current.eKey.wasPressedThisFrame)
+        //{
+           // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //}
     }
 
     public void LoadNextLevel()
@@ -55,11 +45,4 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(levelIndex);
     }
-
-    public void HideTextbox()
-    {
-        Destroy(myTextbox);
-    }
-
-    
 }
