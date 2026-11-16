@@ -1,16 +1,34 @@
 using DoodleStudio95;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Yarn.Unity;
 
 public class CursorControl : MonoBehaviour
 {
     public LayerMask clothesLayer;
     public LayerMask bodyLayer;
-    public LayerMask itemLayer;
+    public LayerMask appleLayer;
+    public LayerMask brickLayer;
+    public LayerMask clarinetLayer;
+    public LayerMask envelopeLayer;
     //public DoodleAnimator luciFaceSprite;
     public Rigidbody2D grabbedObject;
     private Vector2 mousePosition;
     
+    //public GameObject dialogueBox;
+    public DialogueRunner dr;
+    public GameObject myManager;
+
+    public bool appleCalled = false;
+    public bool brickCalled = false;
+    public bool clarinetCalled = false;
+    public bool envelopeCalled = false;
+
+    void Start()
+    {
+        myManager = GameObject.Find("GameManager").GetComponent<GameObject>();
+    }
+
     void Update()
     {
         mousePosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
@@ -20,7 +38,7 @@ public class CursorControl : MonoBehaviour
             if (hit.collider != null)
             {
                 //PutOnClothes(hit.collider.gameObject);
-                Debug.Log("whoa that's a clothes");
+                //Debug.Log("whoa that's a clothes");
             }
 
             hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, bodyLayer);
@@ -29,12 +47,50 @@ public class CursorControl : MonoBehaviour
                 grabbedObject = hit.rigidbody;
                 // change face sprite
             }
-            hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, itemLayer);
+            
+            hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, appleLayer);
             if (hit.collider != null)
             {
                 grabbedObject = hit.rigidbody;
+                if (appleCalled == false)
+                {
+                    AppleDialogue();
+                }
+            }
+            
+            hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, brickLayer);
+            if (hit.collider != null)
+            {
+                grabbedObject = hit.rigidbody;
+                if (brickCalled == false)
+                {
+                    BrickDialogue();
+                }
+                
+            }
+            
+            hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, clarinetLayer);
+            if (hit.collider != null)
+            {
+                grabbedObject = hit.rigidbody;
+                if (clarinetCalled == false)
+                {
+                    ClarinetDialogue();
+                }
+            }
+            
+            hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, envelopeLayer);
+            if (hit.collider != null)
+            {
+                grabbedObject = hit.rigidbody;
+                if (envelopeCalled == false)
+                {
+                    EnvelopeDialogue();   
+                }
+                
             }
         }
+        
         else if (Mouse.current.leftButton.wasReleasedThisFrame && grabbedObject != null)
         {
             grabbedObject = null;
@@ -49,32 +105,31 @@ public class CursorControl : MonoBehaviour
         }
     }
 
-    /*void LuciShock(GameObject hitObj)
+    void AppleDialogue()
     {
-        if (hitObj.CompareTag("lucifer"))
-        {
-            luciFaceSprite.File = hitObj.GetComponent<DoodleAnimator>().File;
-        }
-    }
-    
-    void LuciBlush(BoxCollider2D umm)
-    {
-        if (umm.CompareTag("square"))
-        {
-            luciFaceSprite.File = umm.GetComponent<DoodleAnimator>().File;
-        }
+        Debug.Log("u grab apple!");
+        dr.StartDialogue("placeholder");
+        appleCalled = true;
     }
 
-    void LuciNeutral(GameObject hitObj)
+    void BrickDialogue()
     {
-        luciFaceSprite.File = hitObj.GetComponent<DoodleAnimator>().File;
+        Debug.Log("u grab brick!");
+        dr.StartDialogue("placeholder");
+        brickCalled = true;
     }
 
-    /*void PutOnClothes(GameObject hitObj) // takes one (1) parameter, the thing we clicked on
+    void EnvelopeDialogue()
     {
-        if (hitObj.CompareTag("Shirt"))
-        {
-            shirtSprite.File = hitObj.GetComponent<DoodleAnimator>().File;
-        }
-    }*/
+        Debug.Log("u grab envelope!");
+        dr.StartDialogue("placeholder");
+        envelopeCalled = true;
+    }
+
+    void ClarinetDialogue()
+    {
+        Debug.Log("u grab clarinet!");
+        dr.StartDialogue("placeholder");
+        clarinetCalled = true;
+    }
 }

@@ -1,4 +1,15 @@
-﻿title: IntroductionPart0
+﻿title: placeholder
+---
+freddie: this is placerholder dialogue
+===
+
+title: placeholder2
+---
+freddie: this is ALSO placerholder dialogue?!??!? whoa...
+===
+
+
+title: IntroductionPart0
 ---
 <<empty characterSprite>>
 chip: this world is fucking miserable.
@@ -13,7 +24,7 @@ narrator: chip kicks a rock while trudging down the sidewalk.
 chip: ...
 chip: god.
 chip: this shit blows. 
-chip: like, in the worst way.
+chip: and not in the good way.
 
 chip: depressed, single, AND laid off... yeah, what more could a guy want?
 
@@ -145,31 +156,77 @@ freddie: guys it's the physics part of the physics game whoaaaa (cheer)
 ===
 title: RagdollTime
 ---
+lucifer: okay, so we're gonna start here! in the living room. 
+
+chip: mhm... this looks manageable.
+
+lucifer: yeah! uh... cool, i'm exhausted so i'm just gonna hang out here, let me know if you don't know where to put something.
+
+chip: oh, so what you meant by help is that I'M doing all the work?
+
+lucifer: hahaha, kinda! i wanna watch you get all sweaty carrying my stuff around, is that so wrong?
+
+===
+title: AppleInteract
+---
+// dialogue goes here
+
+===
+title: BrickInteract
+---
+// dialogue goes here
+
+===
+title: ClarinetInteract
+---
+// dialogue goes here
+
+===
+title: EnvelopeInteract
+---
+// dialogue goes here
+
+===
+title: KitchenUnlock
+---
 <<luciBack characterSprite>>
-lucifer: so like. haha . welcome to my apartment or whateva
+lucifer: thanks for the show. and, y'know, for getting all that stuff cleaned up.
+
+<<chipShirtless characterSprite>>
+chip: yeah, yeah. it's no sweat off my back.
+
+<<luciNeutral characterSprite>>
+lucifer: ehehe... i did actually have one other thing i wanted to ask your help with.
+
+<<chipShirtless characterSprite>>
+chip: are you serious? dude. meowr's not a maid-for-hire app now,  is it?
+
+<<luciNeutral characterSprite>>
+lucifer: no, no, no, it'll be quick! and i'll help.
+
+<<empty characterSprite>>
+narrator: chip leans back against the wall.
+
+<<chipShirtless characterSprite>>
+chip: you better. what is it?
+
+<<luciNeutral characterSprite>>
+lucifer: i just need you to help me put some dishes away. that's all! then we can... y'know.
+
+<<luciNeutral characterSprite>>
+lucifer: i'll take 'em out of the dishwasher, you put them in the cabinet that i can't reach. easy! just, like. don't drop them.
+
+<<chipShirtless characterSprite>>
+chip: mhm. this is it, though? no other requests from his highness?
+
+<<luciBack characterSprite>>
+lucifer: haha! yeah, yeah, i promise.
+
+<<chipPeace characterSprite>>
+chip: good. i'll hold you to that.
 
 ===
-title: AppleSpawn
----
-// dialogue goes here
-
-===
-title: EnvelopeSpawn
----
-// dialogue goes here
-
-===
-title: BallSpawn
----
-// dialogue goes here
-
-===
-title: BrickSpawn
----
-// dialogue goes here
-
-===
-title: ShowerAvailable
+title: ShowerUnlock
 ---
 // dialogue goes here
 

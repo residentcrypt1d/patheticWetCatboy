@@ -73,7 +73,7 @@ public class SpriteController : MonoBehaviour
     [YarnCommand("luciPoint")]
     public void LuciPoint()
     {
-        Debug.Log("the sexyman");
+        Debug.Log("the goober");
         newSprite = characterSprites[8];
         gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
     }

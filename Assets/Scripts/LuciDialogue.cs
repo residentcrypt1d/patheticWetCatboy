@@ -2,33 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Yarn.Unity;
 
-public class LuciDialogue : MonoBehaviour
+public class LivRoomDialogue : MonoBehaviour
 {
-    public void OnTriggerEnter2D(Collider2D collision) 
+    public GameObject dialogueBox;
+    public DialogueRunner dr;
+
+
+    /*private void OnCollisionEnter(Collider2D col)
     {
-        if (collision.gameObject.CompareTag("Brick")) 
+        if (col.gameObject.CompareTag("lucifer"))
         {
-            Debug.Log("you touched the brick!");
-            // call brick node
-        }
+            dialogueBox.SetActive(true);
+            Debug.Log("hey its our textbox!");
 
-        if (collision.gameObject.CompareTag("Envelope"))
-        {
-            Debug.Log("you touched the envelope!");
-            // call envelope node
-        }
+            dr.StartDialogue("placeholder");
 
-        if (collision.gameObject.CompareTag("Clarinet"))
-        {
-            Debug.Log("you touched the clarinet!");
-            // call clarinet node
         }
-
-        if (collision.gameObject.CompareTag("Apple"))
-        {
-            Debug.Log("you touched the apple!");
-            // call apple node
-        }
-    }
+    }*/
 }
