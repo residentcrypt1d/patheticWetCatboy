@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/02_introInside.unity
     guid: caee5740c3ce64efda66b12e8ac2c89c
   - enabled: 1
-    path: Assets/Scenes/03_ragdollTime_01.unity
+    path: Assets/Scenes/03_LR_p1.unity
     guid: 9b0cdb4a1573a42eb999193bd6506229
   - enabled: 1
     path: Assets/Scenes/04_shower.unity

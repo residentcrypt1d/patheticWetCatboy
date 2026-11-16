@@ -507,7 +507,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   transitionTime: 1
-  myTextbox: {fileID: 0}
 --- !u!1 &196575958
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,7 +633,9 @@ MonoBehaviour:
   bodyLayer:
     serializedVersion: 2
     m_Bits: 0
-  shirtSprite: {fileID: 0}
+  itemLayer:
+    serializedVersion: 2
+    m_Bits: 0
   grabbedObject: {fileID: 0}
 --- !u!4 &401515151
 Transform:
@@ -1074,8 +1075,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MusicManager
   myMusic: {fileID: 1813489007}
   mySounds: {fileID: 0}
-  mxTitle: {fileID: 8300000, guid: 30bbd6674ab414262a1fac3637e952e5, type: 3}
-  mxMainLevel: {fileID: 8300000, guid: 02d8d354b724f4b908823d3ded0522a9, type: 3}
+  mxTitle: {fileID: 8300000, guid: 02d8d354b724f4b908823d3ded0522a9, type: 3}
+  mxMainLevel: {fileID: 8300000, guid: 30bbd6674ab414262a1fac3637e952e5, type: 3}
   mxShower: {fileID: 0}
   sfxClick: {fileID: 0}
   sfxPos: {fileID: 0}

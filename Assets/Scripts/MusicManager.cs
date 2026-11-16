@@ -36,7 +36,7 @@ public class MusicManager : MonoBehaviour
         }
     }
 
-    void OnEnable()
+  /*  void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
@@ -44,7 +44,7 @@ public class MusicManager : MonoBehaviour
     void OnDisable()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
+    }*/
 
     private void Start()
     {
