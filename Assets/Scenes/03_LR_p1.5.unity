@@ -275,7 +275,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &12657507
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1043,7 +1043,7 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 9004815102137315599, guid: e5832676072d84b99bff6c265a641914, type: 2}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.92156863}
   m_FlipX: 0
   m_FlipY: 0
@@ -1051,7 +1051,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
 --- !u!1 &654550828
 GameObject:
@@ -1087,6 +1087,7 @@ MonoBehaviour:
   bathroomButton: {fileID: 12657508}
   bedroomButton: {fileID: 1747257527}
   livRoomItems: 0
+  kitchenItems: 0
   dr: {fileID: 1843744584}
 --- !u!4 &654550830
 Transform:
@@ -1559,7 +1560,7 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 6079948072877758257, guid: 7332bc5d4d0464b57ad1d721f0a2ca26, type: 2}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.92156863}
   m_FlipX: 0
   m_FlipY: 0
@@ -1567,7 +1568,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
 --- !u!1 &809100641
 GameObject:
@@ -1683,6 +1684,12 @@ MonoBehaviour:
   - {fileID: -2923038774654015901, guid: e96f64b7884fc47829fb2f02cbf36927, type: 3}
   - {fileID: -5363482402022441884, guid: c77dc1890d4854e0ab08ad012e8b0746, type: 3}
   - {fileID: 83253393858471245, guid: 78eb7c0e5080e443c896501b9c21de60, type: 3}
+  luciShorts: {fileID: 0}
+  luciCollar: {fileID: 0}
+  luciFaces: {fileID: 0}
+  ragdollFaces: []
+  ragdollShorts: {fileID: 0}
+  ragdollShortsList: []
 --- !u!1 &1024259565
 GameObject:
   m_ObjectHideFlags: 0
@@ -1851,6 +1858,9 @@ MonoBehaviour:
   bodyLayer:
     serializedVersion: 2
     m_Bits: 64
+  itemLayer:
+    serializedVersion: 2
+    m_Bits: 0
   appleLayer:
     serializedVersion: 2
     m_Bits: 256
@@ -2202,7 +2212,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1577504143
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2724,7 +2734,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1747257526
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3611,7 +3621,7 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 5276447194633179192, guid: 284ccc9d9ece04dd0807c3c6df024b2e, type: 2}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.92156863}
   m_FlipX: 0
   m_FlipY: 0
@@ -3619,7 +3629,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
 --- !u!1001 &3093199268502689723
 PrefabInstance:

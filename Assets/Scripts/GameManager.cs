@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     public Button bedroomButton;
 
     public int livRoomItems;
+    public int kitchenItems;
     public DialogueRunner dr;
 
     void Start()
@@ -25,6 +26,8 @@ public class GameManager : MonoBehaviour
         //Button kitchenButton = Button.GetComponent("ToKitchen");
         //kitchenButton =  kitchenButton.GetComponent<Button>("ToKitchen");
         livRoomItems = 5;
+        kitchenItems = 10;
+        bathroomButton.interactable = false;
     }
 
     void Update()
@@ -36,7 +39,7 @@ public class GameManager : MonoBehaviour
             LoadNextLevel();
         }
         // BUTTON CHECKS
-        if (livRoomItems >0)
+        if (livRoomItems > 0)
         {
             kitchenButton.interactable = false;
         }
@@ -45,16 +48,6 @@ public class GameManager : MonoBehaviour
             kitchenButton.interactable = true;
             //Debug.Log("unlocked kitchen!");
         }
-
-        if (bathroomButton != null)
-        {
-            bathroomButton.interactable = false;
-        }
-        else
-        {
-            bathroomButton.interactable = true;
-        }
-
         if (bedroomButton != null)
         {
             bedroomButton.interactable = false;
@@ -63,6 +56,23 @@ public class GameManager : MonoBehaviour
         {
             bedroomButton.interactable = true;
         }
+        
+        /*if (kitchenItems == 9) // change back to 0 later please
+        {
+            Debug.Log("you put everything away!");
+            //dr.StartDialogue("KitchenComplete");
+            LoadNextLevel();
+        }*/
+    }
+
+    public void BathroomInteractableTrue()
+    {
+        bathroomButton.interactable = true;
+    }
+
+    public void OnCollisionEnter2D()
+    {
+        // if a thing tagged kitchen touches a thing tagged shelf, call subtract kitchen item function
     }
 
     public void LoadNextLevel()
@@ -81,5 +91,15 @@ public class GameManager : MonoBehaviour
     public void SubtractLivRoomItems()
     {
         livRoomItems -= 1;
+    }
+    
+    public void SubtractKitchenItems()
+    {
+        kitchenItems -= 1;
+    }
+    
+    public void AddKitchenItems()
+    {
+        kitchenItems += 1;
     }
 }

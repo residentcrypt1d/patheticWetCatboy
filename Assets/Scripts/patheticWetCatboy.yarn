@@ -1,14 +1,12 @@
 ﻿title: placeholder
 ---
+<<ragdollNeutral characterSprite>>
+<<empty characterSprite>>
 freddie: this is placerholder dialogue
+<<ragdollBlush characterSprite>>
+freddie: this is more placeholder dialogue
+
 ===
-
-title: placeholder2
----
-freddie: this is ALSO placerholder dialogue?!??!? whoa...
-===
-
-
 title: IntroductionPart0
 ---
 <<empty characterSprite>>
@@ -199,12 +197,15 @@ title: ClarinetInteract
 ---
 narrator: it's a clarinet! it looks well-taken care of, as far as chip's aware.
 chip: does this thing have a case?
-lucifer: oh! yeah, yeah, it's over in my room. if you want to leave that out, that's fine by me.
-lucifer: i was just working on some stuff for class.
+lucifer: oh! yeah, yeah, it's over in my room. if you want to leave that out, that's totally fine.
+lucifer: i was just working on some stuff for class. proooobably gonna get back to it later tonight.
 chip: ...class?
-lucifer: grad school. uh, getting my master's in clarinet performance. 
-chip: ohhh, that's cool. wouldn't have taken you for an orchestra guy. you seem more like a my chemical romance type.
-lucifer: haha, hey, i contain multitudes. who's to say i can't be both?
+lucifer: grad school. uh, getting my master's in clarinet performance. and we've got juries on monday.
+lucifer: man, i'm SO not ready, like, they're probably gonna start throwing tomatoes at me mid-concerto...
+narrator: lucifer shudders.
+chip: ohhh, that's cool. the clarinet thing, i mean. good on you for going into a grad program, i called it quits after getting my bachelor's. 
+chip: wouldn't have taken you for an orchestra guy, either. you seem more like a my chemical romance type.
+lucifer: haha, hey, i contain multitudes! who's to say i can't be both?
 chip: fair enough. yeah, i played cello back in high school. a lifetime ago.
 lucifer: oh, please, "a lifetime"? you don't look THAT old.
 chip: thank– pause. i don't look "THAT" old? what's that supposed to mean?
@@ -213,27 +214,26 @@ narrator: lucifer shrugs, attempting to suppress a smile.
 ===
 title: EnvelopeInteract
 ---
-narrator: chip picks up an envelope addressed to one "lucifer devoy". from the general hospital a little ways away.
-narrator: it's been opened and haphazardly resealed. he holds it up, in between two fingers.
+narrator: chip picks up an envelope addressed to one "lucifer s. devoy". from the general hospital a little ways away.
+narrator: it's been opened and haphazardly resealed. he holds it up, in between two of his fingers.
 chip: yo, luce, where do you want me to put this?
 lucifer: ohhhhh that... uh, just leave it on the desk. i've still gotta pay that.
 chip: ah, right.
 lucifer: yeah, they've been up my ass for a couple of weeks, but i dunno what they want me to do, like...
 lucifer: i can't pull a couple thousand dollars out of thin air, y'know?
 chip: yikes. no, that's insane. uh, i'll leave it there, then.
-lucifer: aw, you're not even gonna offer to pay it off for me?
-lucifer: it's like you don't even care...
+lucifer: aw, you're not even gonna offer to pay it off for me? cold!
 chip: i'm not your sugar daddy, dude, my bank account is in the negatives.
-lucifer: wowww we're twinningggg!
+lucifer: twinningggg
 
 ===
 title: KitchenUnlock
 ---
 <<luciBack characterSprite>>
-lucifer: thanks for the show. and, y'know, for getting all that stuff cleaned up.
+lucifer: thanks for the show. and, y'know, for getting all that stuff sorted.
 
 <<chipShirtless characterSprite>>
-chip: yeah, yeah. it's no sweat off my back.
+chip: yeah, yeah. it's no sweat off my back. you REALLY overstated how messy your apartment was, this is nothing.
 
 <<luciNeutral characterSprite>>
 lucifer: ehehe... i did actually have one other thing i wanted to ask your help with.
@@ -251,13 +251,13 @@ narrator: chip leans back against the wall.
 chip: you better. what is it?
 
 <<luciNeutral characterSprite>>
-lucifer: i just need you to help me put some dishes away. that's all! then we can... y'know.
+lucifer: i just need you to help me put some dishes away. that's all! then we can... y'know. get to it.
 
 <<luciNeutral characterSprite>>
 lucifer: i'll take 'em out of the dishwasher, you put them in the cabinet that i can't reach. easy! just, like. don't drop them.
 
 <<chipShirtless characterSprite>>
-chip: mhm. this is it, though? no other requests from his highness?
+chip: mhm. this is it, though? no other requests from his royal highness?
 
 <<luciBack characterSprite>>
 lucifer: haha! yeah, yeah, i promise.
@@ -266,9 +266,124 @@ lucifer: haha! yeah, yeah, i promise.
 chip: good. i'll hold you to that.
 
 ===
+title: KitchenStart
+---
+<<empty characterSprite>>
+luficer: here we are! okay, just put these in the cabinet please! thank you!
+
+chip: got it.
+
+lucifer: and, like, don't stack anything if you can help it. i'm kiiinda prone to dropping things and i don't really wanna break the rest of my plates.
+
+===
+title: LuciWtf
+---
+lucifer: careful!!
+
+===
+title: KitchenComplete
+---
+<<luciBack characterSprite>>
+lucifer: see, that wasn't so bad!
+
+<<chipShirtless characterSprite>>
+chip: i mean, yeah, but... luce, i'm gonna be real with you, this is not what i came here to do.
+
+<<luciNeutral characterSprite>>
+lucifer: duh, obviously not. i know! i know, i've been putting you to work. 
+lucifer: wait, let's go back to the living room. that way you can also sit down and, like, chill for a little.
+
+<<chipPeace characterSprite>>
+chip: sure.
+
+===
 title: ShowerUnlock
 ---
-// dialogue goes here
+<<luciNeutral characterSprite>>
+lucifer: so...
+
+<<chipPeace characterSprite>>
+chip: so...?
+
+<<luciBack characterSprite>>
+lucifer: ehehehe, i just wanted to thank you. again.
+
+<<chipPeace characterSprite>>
+chip: oh no... i can hear it in your voice, you're about to ask me for another favor. like, you're welcome, but i'm not doing anything else that ISN'T you.
+
+<<luciBack characterSprite>>
+lucifer: whaaaat? no, no, of course not! i was going to... extend an invitation.
+
+<<chipPeace characterSprite>>
+chip: oh?
+
+<<luciPoint characterSprite>>
+lucifer: wanna hop in the shower with me real quick?
+
+<<chipShirtless characterSprite>>
+chip: counter-question. don't people usually shower after–
+
+<<luciBack characterSprite>>
+lucifer: yeah, but to counter your counter, a piping hot shower usually gets me pretty excited. i dunno about you, though. 
+
+<<chipShirtless characterSprite>>
+narrator: chip looks at the bathroom door, then back at lucifer.
+
+<<luciBack characterSprite>>
+lucifer: ehehehe, you can think it over if you want, i'm not in any rush!
+
+<<chipShirtless characterSprite>>
+chip: think it over, he says, as if there's any answer other than yes.
+chip: i've been itching to see you without those shorts on for hours...
+
+<<luciBack characterSprite>>
+lucifer: what was that?
+
+<<chipShirtless characterSprite>>
+chip: huh?
+
+<<luciBack characterSprite>>
+lucifer: no, no, say it again. like you mean it.
+lucifer: tell me what you want me to do.
+
+<<chipShirtless characterSprite>>
+chip: um... i'd–
+
+<<luciPoint characterSprite>>
+lucifer: wowwwwww, i didn't expect you to fold under just a teeny bit of pressur–
+
+<<chipShirtless characterSprite>>
+chip: take them off.
+chip: lose the pants.
+
+<<ragdollBlush characterSprite>>
+<<luciBack characterSprite>>
+lucifer: ahhhh, there we go. your wish is my command.
+
+
+// NEW SPRITE OF LUCI WITH HIS BACK TURNED SLIDING HIS PANTS DOWN
+narrator: with his back facing chip, he gently slips his fingers into the waistband and slides his pants down agonizingly slowly,
+
+// SEE ABOVE, PANTS FURTHER DOWN
+narrator: revealing his beautifully sculpted thighs inch by inch.
+
+<<luciNakey characterSprite>>
+<<removeCollar characterSprite>>
+<<addCensor characterSprite>>
+narrator: now, with nothing left to the imagination, he turns to face chip again with a coy, impish smile on his face.
+
+<<luciNakey characterSprite>>
+lucifer: okay! your turn!
+
+<<chipPeace characterSprite>>
+chip: wow. your pictures didn't do you justice, holy shit.
+chip: could you give me a moment, actually?
+
+<<luciNakey characterSprite>>
+lucifer: mhm, i'm gonna go get the water running. come join me when you're done having your moment!
+
+<<empty characterSprite>>
+narrator: lucifer struts off to the bathroom.
 
 ===
 title: ShowerStart

@@ -12,7 +12,9 @@ public class CursorControl : MonoBehaviour
     public LayerMask brickLayer;
     public LayerMask clarinetLayer;
     public LayerMask envelopeLayer;
+    // public LayerMask dishLayer;
     //public DoodleAnimator luciFaceSprite;
+    
     public Rigidbody2D grabbedObject;
     private Vector2 mousePosition;
     
@@ -53,7 +55,6 @@ public class CursorControl : MonoBehaviour
             if (hit.collider != null)
             {
                 grabbedObject = hit.rigidbody;
-                // change face sprite
             }
             
             hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, appleLayer);

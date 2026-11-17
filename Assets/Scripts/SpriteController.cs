@@ -1,10 +1,20 @@
+using DoodleStudio95;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 using Yarn.Unity;
 
 public class SpriteController : MonoBehaviour
 {
     [SerializeField] private Sprite[] characterSprites;
     private Sprite newSprite;
+
+    public SpriteRenderer luciShorts;
+    public SpriteRenderer luciCollar;
+    public GameObject luciFaces;
+    public DoodleAnimationFile[] ragdollFaces;
+
+    public GameObject ragdollShorts;
+    public DoodleAnimationFile[] ragdollShortsList;
     
     [YarnCommand("luciNeutral")] // sprite 0
     public void LuciNeutral() 
@@ -76,5 +86,69 @@ public class SpriteController : MonoBehaviour
         Debug.Log("the goober");
         newSprite = characterSprites[8];
         gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
+    }
+
+    [YarnCommand("luciNakey")]
+    public void LuciNakey()
+    {
+        Debug.Log("WHERE ARE YOUR PANTS?!?!?");
+        newSprite = characterSprites[9];
+        gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
+    }
+
+    [YarnCommand("removeShorts")]
+    public void RemoveShorts()
+    {
+        Debug.Log("removed ragdoll luci's shorts");
+        luciShorts.enabled = false;
+    }
+
+    [YarnCommand("removeCollar")]
+    public void RemoveCollar()
+    {
+        Debug.Log("removed ragdoll luci's collar");
+        luciCollar.enabled = false;
+    }
+    
+    [YarnCommand("addCollar")]
+    public void AddCollar()
+    {
+        Debug.Log("added ragdoll luci's collar");
+        luciCollar.enabled = true;
+    }
+
+    [YarnCommand("addCensor")]
+    public void AddCensor()
+    {
+        Debug.Log("hello censor bar");
+        ragdollShorts.GetComponent<DoodleAnimator>().File = ragdollShortsList[1];
+    }
+
+    [YarnCommand("addShorts")]
+    public void AddShorts()
+    {
+        Debug.Log("added ragdoll luci's shorts back!");
+        ragdollShorts.GetComponent<DoodleAnimator>().File = ragdollShortsList[0];
+    }
+
+    [YarnCommand("ragdollNeutral")] 
+    public void RagdollNeutral()
+    {
+        Debug.Log("ragdoll has neutral expression!");
+        luciFaces.GetComponent<DoodleAnimator>().File = ragdollFaces[0];
+    }
+    
+    [YarnCommand("ragdollBlush")] 
+    public void RagdollBlush()
+    {
+        Debug.Log("ragdoll has blushing expression!");
+        luciFaces.GetComponent<DoodleAnimator>().File = ragdollFaces[1];
+    }
+    
+    [YarnCommand("ragdollGasp")] 
+    public void RagdollGasp()
+    {
+        Debug.Log("ragdoll has gasping expression!");
+        luciFaces.GetComponent<DoodleAnimator>().File = ragdollFaces[2];
     }
 }

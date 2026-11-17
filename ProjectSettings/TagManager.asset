@@ -12,6 +12,7 @@ TagManager:
   - apple
   - clarinet
   - items
+  - shelf
   layers:
   - Default
   - TransparentFX

@@ -1106,6 +1106,7 @@ MonoBehaviour:
   bathroomButton: {fileID: 0}
   bedroomButton: {fileID: 0}
   livRoomItems: 0
+  kitchenItems: 0
   dr: {fileID: 0}
 --- !u!4 &654550830
 Transform:
@@ -1505,6 +1506,12 @@ MonoBehaviour:
   - {fileID: -7089418969799642764, guid: 974c688219b9b4e6c946382a8e2e97d7, type: 3}
   - {fileID: -5941496513967917531, guid: 2fc2eb780e45f49c6ac690a505bc2080, type: 3}
   - {fileID: 7938887294624988466, guid: e9d0481fab8f64e0bb19f125401a163e, type: 3}
+  luciShorts: {fileID: 0}
+  luciCollar: {fileID: 0}
+  luciFaces: {fileID: 0}
+  ragdollFaces: []
+  ragdollShorts: {fileID: 0}
+  ragdollShortsList: []
 --- !u!1 &941279488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1572,7 +1579,7 @@ SpriteRenderer:
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -4826364120634204305, guid: b14e18ea5153243038a0b58d328b2bcf, type: 2}
+  m_Sprite: {fileID: -1427334963953762597, guid: 24a6f4e0890fe40009a064bb28bf73e6, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1591,8 +1598,8 @@ Transform:
   m_GameObject: {fileID: 941279488}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.12, y: -2.93, z: 0}
-  m_LocalScale: {x: 2.9259083, y: 1.2132789, z: 0.6548}
+  m_LocalPosition: {x: 0.03, y: -2.51, z: 0}
+  m_LocalScale: {x: 1.0885596, y: 1.2132293, z: 0.6548}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1610,7 +1617,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoodleStudio95.DoodleAnimator
   m_States: []
-  m_File: {fileID: 11400000, guid: b14e18ea5153243038a0b58d328b2bcf, type: 2}
+  m_File: {fileID: 11400000, guid: 24a6f4e0890fe40009a064bb28bf73e6, type: 2}
   speed: 1
   m_Settings:
     randomizeOnStart: 1
@@ -1883,6 +1890,9 @@ MonoBehaviour:
   bodyLayer:
     serializedVersion: 2
     m_Bits: 64
+  itemLayer:
+    serializedVersion: 2
+    m_Bits: 0
   appleLayer:
     serializedVersion: 2
     m_Bits: 0
