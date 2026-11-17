@@ -12,11 +12,14 @@ public class CursorControl : MonoBehaviour
     public LayerMask brickLayer;
     public LayerMask clarinetLayer;
     public LayerMask envelopeLayer;
-    // public LayerMask dishLayer;
-    //public DoodleAnimator luciFaceSprite;
+    public LayerMask standLayer;
+    public LayerMask lampLayer;
     
     public Rigidbody2D grabbedObject;
     private Vector2 mousePosition;
+    
+    public GameObject luciFaces;
+    public DoodleAnimationFile[] ragdollFaces;
     
     //public GameObject dialogueBox;
     public DialogueRunner dr;
@@ -26,6 +29,8 @@ public class CursorControl : MonoBehaviour
     public bool brickCalled = false;
     public bool clarinetCalled = false;
     public bool envelopeCalled = false;
+    public bool standCalled = false;
+    public bool lampCalled = false;
 
     void Start()
     {
@@ -48,7 +53,7 @@ public class CursorControl : MonoBehaviour
             if (hit.collider != null)
             {
                 grabbedObject = hit.rigidbody;
-                // change face sprite
+                RagdollGasp();
             }
             
             hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, itemLayer);
@@ -98,11 +103,34 @@ public class CursorControl : MonoBehaviour
                 }
                 
             }
+            
+            hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, standLayer);
+            if (hit.collider != null)
+            {
+                grabbedObject = hit.rigidbody;
+                if (standCalled == false)
+                {
+                    StandDialogue();   
+                }
+                
+            }
+            
+            hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, lampLayer);
+            if (hit.collider != null)
+            {
+                grabbedObject = hit.rigidbody;
+                if (lampCalled == false)
+                {
+                    LampDialogue();   
+                }
+                
+            }
         }
         
         else if (Mouse.current.leftButton.wasReleasedThisFrame && grabbedObject != null)
         {
             grabbedObject = null;
+            RagdollNeutral();
         }
     }
 
@@ -112,6 +140,18 @@ public class CursorControl : MonoBehaviour
         {
             grabbedObject.MovePosition(mousePosition);
         }
+    }
+    
+    public void RagdollGasp()
+    {
+        Debug.Log("ragdoll has gasping expression!");
+        luciFaces.GetComponent<DoodleAnimator>().File = ragdollFaces[1];
+    }
+
+    public void RagdollNeutral()
+    {
+        Debug.Log("ragdoll has neutral expression!");
+        luciFaces.GetComponent<DoodleAnimator>().File = ragdollFaces[0];
     }
 
     void AppleDialogue()
@@ -140,5 +180,18 @@ public class CursorControl : MonoBehaviour
         Debug.Log("u grab clarinet!");
         dr.StartDialogue("ClarinetInteract");
         clarinetCalled = true;
+    }
+    void StandDialogue()
+    {
+        Debug.Log("u grab stand!");
+        dr.StartDialogue("StandInteract");
+        standCalled = true;
+    }
+    
+    void LampDialogue()
+    {
+        Debug.Log("u grab lamp!");
+        dr.StartDialogue("LampInteract");
+        lampCalled = true;
     }
 }

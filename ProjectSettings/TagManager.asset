@@ -13,6 +13,7 @@ TagManager:
   - clarinet
   - items
   - shelf
+  - chip
   layers:
   - Default
   - TransparentFX
@@ -26,8 +27,8 @@ TagManager:
   - Brick
   - Clarinet
   - Envelope
-  - 
-  - 
+  - Stand
+  - Lamp
   - 
   - 
   - 

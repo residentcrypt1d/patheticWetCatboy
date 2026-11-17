@@ -96,6 +96,29 @@ public class SpriteController : MonoBehaviour
         gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
     }
 
+    [YarnCommand("chipBack")]
+    public void ChipBack()
+    {
+        Debug.Log("chip has turned around!");
+        newSprite = characterSprites[10];
+        gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
+    }
+
+    [YarnCommand("chipNakey")]
+    public void ChipNakey()
+    {
+        Debug.Log("chip where'd your clothes go?");
+        newSprite = characterSprites[11];
+        gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
+    }
+
+    [YarnCommand("luciTeehee")]
+    public void LuciTeehee()
+    {
+        newSprite = characterSprites[12];
+        gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
+    }
+
     [YarnCommand("removeShorts")]
     public void RemoveShorts()
     {
@@ -143,12 +166,5 @@ public class SpriteController : MonoBehaviour
     {
         Debug.Log("ragdoll has blushing expression!");
         luciFaces.GetComponent<DoodleAnimator>().File = ragdollFaces[1];
-    }
-    
-    [YarnCommand("ragdollGasp")] 
-    public void RagdollGasp()
-    {
-        Debug.Log("ragdoll has gasping expression!");
-        luciFaces.GetComponent<DoodleAnimator>().File = ragdollFaces[2];
     }
 }

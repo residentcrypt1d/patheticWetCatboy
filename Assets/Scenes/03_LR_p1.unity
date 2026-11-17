@@ -403,7 +403,7 @@ GameObject:
   - component: {fileID: 194853462}
   - component: {fileID: 194853461}
   - component: {fileID: 194853460}
-  m_Layer: 7
+  m_Layer: 13
   m_Name: lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1903,6 +1903,12 @@ MonoBehaviour:
   - {fileID: -7089418969799642764, guid: 974c688219b9b4e6c946382a8e2e97d7, type: 3}
   - {fileID: -5941496513967917531, guid: 2fc2eb780e45f49c6ac690a505bc2080, type: 3}
   - {fileID: 7938887294624988466, guid: e9d0481fab8f64e0bb19f125401a163e, type: 3}
+  luciShorts: {fileID: 0}
+  luciCollar: {fileID: 0}
+  luciFaces: {fileID: 0}
+  ragdollFaces: []
+  ragdollShorts: {fileID: 0}
+  ragdollShortsList: []
 --- !u!1 &1024259565
 GameObject:
   m_ObjectHideFlags: 0
@@ -2049,7 +2055,7 @@ GameObject:
   - component: {fileID: 1163383511}
   - component: {fileID: 1163383510}
   - component: {fileID: 1163383509}
-  m_Layer: 7
+  m_Layer: 12
   m_Name: music stand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2280,7 +2286,17 @@ MonoBehaviour:
   envelopeLayer:
     serializedVersion: 2
     m_Bits: 2048
+  standLayer:
+    serializedVersion: 2
+    m_Bits: 4096
+  lampLayer:
+    serializedVersion: 2
+    m_Bits: 8192
   grabbedObject: {fileID: 0}
+  luciFaces: {fileID: 1838626130}
+  ragdollFaces:
+  - {fileID: 11400000, guid: d53708463d87b4e599b8f7b9e8abdb7a, type: 2}
+  - {fileID: 11400000, guid: 2425b9f29ae164ffbbc6998b110381d1, type: 2}
   dr: {fileID: 1843744584}
   myManager: {fileID: 654550828}
   appleCalled: 0
@@ -3935,6 +3951,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1838626130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4165442174261797856, guid: 08dc8da68dedf45238fb667171e1b422, type: 3}
+  m_PrefabInstance: {fileID: 3093199268502689723}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1843744584 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d, type: 3}
@@ -4507,7 +4528,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: -5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -5493549827355631887, guid: 258ba58c52361493eb17c48a2c385dba, type: 2}
+  m_Sprite: {fileID: 5790710903192251806, guid: 258ba58c52361493eb17c48a2c385dba, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

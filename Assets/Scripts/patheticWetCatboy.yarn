@@ -9,7 +9,7 @@ freddie: this is more placeholder dialogue
 ===
 title: IntroductionPart0
 ---
-<<empty characterSprite>>
+<<chipBack characterSprite>>
 chip: this world is fucking miserable.
 chip: you get up at the asscrack of dawn and work your tail off until the sun sets, and for what?
 chip: you'll only ever be one measly little fish in a sea of people. or a number on some rich bastard's spreadsheet.
@@ -17,27 +17,31 @@ chip: you'll only ever be one measly little fish in a sea of people. or a number
 chip: nobody cares about who you are, or how you're doing, no, none of that. it's just about what you can do for them.
 chip: and even if you do everything right, you STILL get fucked! 
 
+<<empty characterSprite>>
 narrator: chip kicks a rock while trudging down the sidewalk.
 
+<<chipBack characterSprite>>
 chip: ...
 chip: god.
 chip: this shit blows. 
-chip: and not in the good way.
+chip: with teeth. ugh.
 
-chip: depressed, single, AND laid off... yeah, what more could a guy want?
+chip: depressed, single, AND laid off... economy's gone to hell and fuck if i know how i'm gonna pay my rent next month.
+chip: what more could a guy ask for?
 
+<<empty characterSprite>>
 narrator: he sighs as he pulls a sleek black smartphone out of his back pocket and enters his passcode.
 
 <<playerPhone characterSprite>>
-chip: but whatever. he said he was at 38 hemingway street... "my address... see you at 2". with a purple heart at the end. ha.
+chip: but whatever. he said he was at 38 hemingway street... "my address... see you at 2". with a purple heart at the end. heh.
 
-<<empty characterSprite>>
-chip: hopefully this'll get my mind off of all that garbage from earlier.
+<<chipBack characterSprite>>
+chip: hopefully this'll get my mind off of all that bullshit at the office.
 chip: alright, that's 86 hemingway. 
 chip: ... and that's 90. 
 chip: ...
 chip: ... ... ...
-chip: shit, i'm totally going in the wrong direction.
+chip: i'm totally going in the wrong direction. goddamnit.
 
 ===
 title: IntroductionPart1
@@ -89,7 +93,8 @@ chip: hey, luce? or, luke? not sure how you'd say–
 narrator: the door swings open, cutting him off mid-sentence.
 
 <<luciGreeting characterSprite>>
-lucifer: oh! hey! wow, i didn't think you'd get here so quickly. um, hi! haha! 
+lucifer: oh! hey! wow, i didn't think you'd get here so quickly. 
+lucifer: did you run up the stairs or what?
 
 <<chipNeutral characterSprite>>
 chip: hey–
@@ -114,19 +119,19 @@ title: IntroductionPart2
 <<chipNeutral characterSprite>>
 chip: so, luce, when we talked earlier you said that you wanted me to–
 
-<<luciNeutral characterSprite>>
+<<luciTeehee characterSprite>>
 lucifer: help me organize this place!
 
 <<chipNeutral characterSprite>>
 chip: pause. what?
 
-<<luciNeutral characterSprite>>
+<<luciTeehee characterSprite>>
 lucifer: yeah... it's just been so hard lately, like–
 
 <<chipNeutral characterSprite>>
 chip: no, no, i understand that. but we NEVER talked about cleaning.
 
-<<luciNeutral characterSprite>>
+<<luciTeehee characterSprite>>
 lucifer: oh. hm. must've been someone else then.
 lucifer: by the way, uh, feel free to take that sweater off. my heater's busted, it's been hot as hell for forever and my landlord's, like, not responding.
 
@@ -159,7 +164,7 @@ lucifer: okay, so we're gonna start here! in the living room.
 
 chip: mhm... this looks manageable.
 
-lucifer: yeah! uh... cool, i'm exhausted so i'm just gonna hang out here, let me know if you don't know where to put something.
+lucifer: yeah! uh... cool, i'm just gonna hang out here, let me know if you don't know where to put something. or if you just wanna chat.
 
 chip: oh, so what you meant by help is that I'M doing all the work?
 
@@ -225,6 +230,31 @@ chip: yikes. no, that's insane. uh, i'll leave it there, then.
 lucifer: aw, you're not even gonna offer to pay it off for me? cold!
 chip: i'm not your sugar daddy, dude, my bank account is in the negatives.
 lucifer: twinningggg
+
+===
+title: StandInteract
+---
+chip: oooh sheet music! been a minute since i've read any of this stuff.
+lucifer: oh, that? yeahhh, i need to get back to it. that's a problem for later me, though.
+lucifer: have you ever heard the rose etudes? they're such a pain. like, they sound great when they're being played by, like, a competent musician.
+chip: like you, i assume?
+lucifer: i'd like to think so, haha! but... eh, i'm just okay.
+chip: no need to be humble, if you're playing shit like this, then you've gotta be at least SOMEWHAT competent.
+lucifer: aw, stop it. maybe i'll play you something later, while i've got you here.
+
+===
+title: LampInteract
+---
+lucifer: that lamp is totally messed up. no idea what i did to break it, but it hasn't been turning on for a good few weeks now.
+chip: damn, that sucks.
+lucifer: right? it was such a good reading light. that overhead light up there? blinding. and you know what's worse?
+chip: mm?
+lucifer: when i sit at my desk to work, it casts the gnarliest shadow over whatever i'm doing. it's awful.
+chip: d'you think it's the lightbulb?
+lucifer: um... i doubt it. i swapped the bulbs, like, a million times. unless i got a full pack of faulty ones, i think it's preeeetty safe to say it's the lamp.
+chip: hmm. i can take a closer look at it later. 
+lucifer: aw, thank you! you're such a sweetie.
+chip: yeah, it's no problem at all.
 
 ===
 title: KitchenUnlock
@@ -309,7 +339,8 @@ chip: so...?
 lucifer: ehehehe, i just wanted to thank you. again.
 
 <<chipPeace characterSprite>>
-chip: oh no... i can hear it in your voice, you're about to ask me for another favor. like, you're welcome, but i'm not doing anything else that ISN'T you.
+chip: oh no... i can hear it in your voice, you're about to ask me for another favor. 
+chip: i mean, you're welcome, but i'm not doing anything else that ISN'T you.
 
 <<luciBack characterSprite>>
 lucifer: whaaaat? no, no, of course not! i was going to... extend an invitation.
@@ -330,11 +361,11 @@ lucifer: yeah, but to counter your counter, a piping hot shower usually gets me 
 narrator: chip looks at the bathroom door, then back at lucifer.
 
 <<luciBack characterSprite>>
-lucifer: ehehehe, you can think it over if you want, i'm not in any rush!
+lucifer: haha, you can think it over if you want, just thought it'd be polite to ask.
 
 <<chipShirtless characterSprite>>
 chip: think it over, he says, as if there's any answer other than yes.
-chip: i've been itching to see you without those shorts on for hours...
+chip: i've been itching to see you without those tiny shorts on for hours...
 
 <<luciBack characterSprite>>
 lucifer: what was that?
@@ -344,6 +375,8 @@ chip: huh?
 
 <<luciBack characterSprite>>
 lucifer: no, no, say it again. like you mean it.
+
+<<luciPoint characterSprite>>
 lucifer: tell me what you want me to do.
 
 <<chipShirtless characterSprite>>
@@ -358,14 +391,15 @@ chip: lose the pants.
 
 <<ragdollBlush characterSprite>>
 <<luciBack characterSprite>>
-lucifer: ahhhh, there we go. your wish is my command.
+lucifer: ahhhh, hahaha! theeere we go. 
+lucifer: your wish is my command.
 
 
 // NEW SPRITE OF LUCI WITH HIS BACK TURNED SLIDING HIS PANTS DOWN
 narrator: with his back facing chip, he gently slips his fingers into the waistband and slides his pants down agonizingly slowly,
 
 // SEE ABOVE, PANTS FURTHER DOWN
-narrator: revealing his beautifully sculpted thighs inch by inch.
+narrator: revealing his beautifully sculpted thighs, inch by inch.
 
 <<luciNakey characterSprite>>
 <<removeCollar characterSprite>>
@@ -380,10 +414,10 @@ chip: wow. your pictures didn't do you justice, holy shit.
 chip: could you give me a moment, actually?
 
 <<luciNakey characterSprite>>
-lucifer: mhm, i'm gonna go get the water running. come join me when you're done having your moment!
+lucifer: mhm, take your time.
 
 <<empty characterSprite>>
-narrator: lucifer struts off to the bathroom.
+narrator: lucifer watches chip intently. 
 
 ===
 title: ShowerStart

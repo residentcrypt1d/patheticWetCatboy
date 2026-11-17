@@ -164,6 +164,7 @@ MonoBehaviour:
   bathroomButton: {fileID: 0}
   bedroomButton: {fileID: 0}
   livRoomItems: 0
+  kitchenItems: 0
   dr: {fileID: 0}
 --- !u!4 &654550830
 Transform:
@@ -411,6 +412,17 @@ MonoBehaviour:
   - {fileID: -5941496513967917531, guid: 2fc2eb780e45f49c6ac690a505bc2080, type: 3}
   - {fileID: 7938887294624988466, guid: e9d0481fab8f64e0bb19f125401a163e, type: 3}
   - {fileID: -2923038774654015901, guid: e96f64b7884fc47829fb2f02cbf36927, type: 3}
+  - {fileID: -5363482402022441884, guid: c77dc1890d4854e0ab08ad012e8b0746, type: 3}
+  - {fileID: 83253393858471245, guid: 78eb7c0e5080e443c896501b9c21de60, type: 3}
+  - {fileID: 4218183108327834049, guid: a5ebd2651ff4d445bae4d752fb039fa7, type: 3}
+  - {fileID: -3685029031593797644, guid: af8a90f76d522465e99d60450d44ac1d, type: 3}
+  - {fileID: 7609236856323866780, guid: 66e90d2e66a3a467d82a7d012abf120f, type: 3}
+  luciShorts: {fileID: 0}
+  luciCollar: {fileID: 0}
+  luciFaces: {fileID: 0}
+  ragdollFaces: []
+  ragdollShorts: {fileID: 0}
+  ragdollShortsList: []
 --- !u!1 &893001995
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,6 +767,9 @@ MonoBehaviour:
   bodyLayer:
     serializedVersion: 2
     m_Bits: 64
+  itemLayer:
+    serializedVersion: 2
+    m_Bits: 0
   appleLayer:
     serializedVersion: 2
     m_Bits: 0
