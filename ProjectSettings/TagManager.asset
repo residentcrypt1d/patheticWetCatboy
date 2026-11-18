@@ -14,6 +14,7 @@ TagManager:
   - items
   - shelf
   - chip
+  - bubble
   layers:
   - Default
   - TransparentFX
@@ -29,8 +30,8 @@ TagManager:
   - Envelope
   - Stand
   - Lamp
-  - 
-  - 
+  - LuciShower
+  - Soap
   - 
   - 
   - 

@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: c6104cc7475674a5ebd6e4180ec6d8bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4734553652331509370
+    second: catboyGamev2_0
+  - first:
+      213: 1839432592637597331
+    second: catboyGamev2_1
+  - first:
+      213: -4136516334979402227
+    second: catboyGamev2_2
+  - first:
+      213: 123245126142570237
+    second: catboyGamev2_3
+  - first:
+      213: 749269690591096450
+    second: catboyGamev2_4
+  - first:
+      213: 1949900842824157161
+    second: catboyGamev2_5
+  - first:
+      213: 3816071370012090810
+    second: catboyGamev2_6
+  - first:
+      213: -2999032672898266980
+    second: catboyGamev2_7
+  - first:
+      213: 4622280846865315077
+    second: catboyGamev2_8
+  - first:
+      213: 2097377686171551688
+    second: catboyGamev2_9
+  - first:
+      213: 9209561580906754457
+    second: catboyGamev2_10
+  - first:
+      213: 7892984141456196052
+    second: catboyGamev2_11
+  - first:
+      213: 8982978859988495149
+    second: catboyGamev2_12
+  - first:
+      213: -3101449054497095977
+    second: catboyGamev2_13
+  - first:
+      213: -5797687387041894610
+    second: catboyGamev2_14
+  - first:
+      213: -6173620687474429032
+    second: catboyGamev2_15
+  - first:
+      213: -1079184076071867778
+    second: catboyGamev2_16
+  - first:
+      213: 4826052261380733238
+    second: catboyGamev2_17
+  - first:
+      213: 2184425430642252593
+    second: catboyGamev2_18
+  - first:
+      213: -3621027628548758289
+    second: catboyGamev2_19
+  - first:
+      213: -2549171152671367109
+    second: catboyGamev2_20
+  - first:
+      213: 2319826317065276522
+    second: catboyGamev2_21
+  - first:
+      213: 8533629956628305711
+    second: catboyGamev2_22
+  - first:
+      213: 1021538548837947902
+    second: catboyGamev2_23
+  - first:
+      213: 5821992414522739739
+    second: catboyGamev2_24
+  - first:
+      213: -8792211767883653092
+    second: catboyGamev2_25
+  - first:
+      213: -5099205197056728388
+    second: catboyGamev2_26
+  - first:
+      213: -8389506137853486679
+    second: catboyGamev2_27
+  - first:
+      213: -6198232140080281027
+    second: catboyGamev2_28
+  - first:
+      213: 5152859808919612770
+    second: catboyGamev2_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: catboyGamev2_16
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 491
+        width: 2659
+        height: 2165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a6a72fcc7f501f0800000000000000
+      internalID: -1079184076071867778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 63d404c5267da4430b722ba517e34a5a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      catboyGamev2_0: -4734553652331509370
+      catboyGamev2_1: 1839432592637597331
+      catboyGamev2_10: 9209561580906754457
+      catboyGamev2_11: 7892984141456196052
+      catboyGamev2_12: 8982978859988495149
+      catboyGamev2_13: -3101449054497095977
+      catboyGamev2_14: -5797687387041894610
+      catboyGamev2_15: -6173620687474429032
+      catboyGamev2_16: -1079184076071867778
+      catboyGamev2_17: 4826052261380733238
+      catboyGamev2_18: 2184425430642252593
+      catboyGamev2_19: -3621027628548758289
+      catboyGamev2_2: -4136516334979402227
+      catboyGamev2_20: -2549171152671367109
+      catboyGamev2_21: 2319826317065276522
+      catboyGamev2_22: 8533629956628305711
+      catboyGamev2_23: 1021538548837947902
+      catboyGamev2_24: 5821992414522739739
+      catboyGamev2_25: -8792211767883653092
+      catboyGamev2_26: -5099205197056728388
+      catboyGamev2_27: -8389506137853486679
+      catboyGamev2_28: -6198232140080281027
+      catboyGamev2_29: 5152859808919612770
+      catboyGamev2_3: 123245126142570237
+      catboyGamev2_4: 749269690591096450
+      catboyGamev2_5: 1949900842824157161
+      catboyGamev2_6: 3816071370012090810
+      catboyGamev2_7: -2999032672898266980
+      catboyGamev2_8: 4622280846865315077
+      catboyGamev2_9: 2097377686171551688
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

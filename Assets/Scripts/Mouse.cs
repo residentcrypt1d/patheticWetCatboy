@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using DoodleStudio95;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -14,13 +16,14 @@ public class CursorControl : MonoBehaviour
     public LayerMask envelopeLayer;
     public LayerMask standLayer;
     public LayerMask lampLayer;
-    
+    public LayerMask showerLayer;
+
     public Rigidbody2D grabbedObject;
     private Vector2 mousePosition;
-    
+
     public GameObject luciFaces;
     public DoodleAnimationFile[] ragdollFaces;
-    
+
     //public GameObject dialogueBox;
     public DialogueRunner dr;
     public GameObject myManager;
@@ -31,6 +34,12 @@ public class CursorControl : MonoBehaviour
     public bool envelopeCalled = false;
     public bool standCalled = false;
     public bool lampCalled = false;
+
+    public bool addSoap = true;
+    
+    [SerializeField] private float waitTime = .10f;
+    public GameObject soapToSpawn;
+    private GameObject spawnedSoap;
 
     void Start()
     {
@@ -55,13 +64,13 @@ public class CursorControl : MonoBehaviour
                 grabbedObject = hit.rigidbody;
                 RagdollGasp();
             }
-            
+
             hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, itemLayer);
             if (hit.collider != null)
             {
                 grabbedObject = hit.rigidbody;
             }
-            
+
             hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, appleLayer);
             if (hit.collider != null)
             {
@@ -71,7 +80,7 @@ public class CursorControl : MonoBehaviour
                     AppleDialogue();
                 }
             }
-            
+
             hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, brickLayer);
             if (hit.collider != null)
             {
@@ -80,9 +89,9 @@ public class CursorControl : MonoBehaviour
                 {
                     BrickDialogue();
                 }
-                
+
             }
-            
+
             hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, clarinetLayer);
             if (hit.collider != null)
             {
@@ -92,47 +101,65 @@ public class CursorControl : MonoBehaviour
                     ClarinetDialogue();
                 }
             }
-            
+
             hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, envelopeLayer);
             if (hit.collider != null)
             {
                 grabbedObject = hit.rigidbody;
                 if (envelopeCalled == false)
                 {
-                    EnvelopeDialogue();   
+                    EnvelopeDialogue();
                 }
-                
+
             }
-            
+
             hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, standLayer);
             if (hit.collider != null)
             {
                 grabbedObject = hit.rigidbody;
                 if (standCalled == false)
                 {
-                    StandDialogue();   
+                    StandDialogue();
                 }
-                
+
             }
-            
+
             hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, lampLayer);
             if (hit.collider != null)
             {
                 grabbedObject = hit.rigidbody;
                 if (lampCalled == false)
                 {
-                    LampDialogue();   
+                    LampDialogue();
                 }
-                
+
             }
         }
-        
+
+        if (Mouse.current.leftButton.isPressed) // adding & destroying soap
+        {
+            RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero, 100f, showerLayer);
+            if (hit.collider != null && addSoap)
+            {
+                Debug.Log("spawned soap!");
+                //StartCoroutine(SpawnSoap(0.5f));
+                AddSoap();
+            }
+            if (hit.collider != null && addSoap == false && gameObject.tag == "bubble")
+            {
+                Debug.Log("destroyed soap! in theory!"); 
+                //Destroy(soapToSpawn);
+                //StartCoroutine(SpawnSoap(0.5f));
+            }
+        }
+
         else if (Mouse.current.leftButton.wasReleasedThisFrame && grabbedObject != null)
         {
             grabbedObject = null;
             RagdollNeutral();
         }
     }
+
 
     void FixedUpdate() // putting our physics stuff in here !
     {
@@ -141,7 +168,7 @@ public class CursorControl : MonoBehaviour
             grabbedObject.MovePosition(mousePosition);
         }
     }
-    
+
     public void RagdollGasp()
     {
         Debug.Log("ragdoll has gasping expression!");
@@ -181,17 +208,25 @@ public class CursorControl : MonoBehaviour
         dr.StartDialogue("ClarinetInteract");
         clarinetCalled = true;
     }
+
     void StandDialogue()
     {
         Debug.Log("u grab stand!");
         dr.StartDialogue("StandInteract");
         standCalled = true;
     }
-    
+
     void LampDialogue()
     {
         Debug.Log("u grab lamp!");
         dr.StartDialogue("LampInteract");
         lampCalled = true;
     }
+
+    void AddSoap()
+    {
+        //Debug.Log("Entered: " + gameObject.name + ". Yay! We did it");
+        spawnedSoap = Instantiate(soapToSpawn, mousePosition, Quaternion.Euler(0, 0, (Random.Range(0,360))));
+    }
+
 }

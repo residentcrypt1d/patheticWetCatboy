@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     public Button kitchenButton;
     public Button bathroomButton;
     public Button bedroomButton;
+    public Button showerComButton;
 
     public int livRoomItems;
     public int kitchenItems;
@@ -28,6 +29,8 @@ public class GameManager : MonoBehaviour
         livRoomItems = 5;
         kitchenItems = 10;
         bathroomButton.interactable = false;
+        bedroomButton.interactable = false;
+        showerComButton.interactable = false;
     }
 
     void Update()
@@ -48,15 +51,6 @@ public class GameManager : MonoBehaviour
             kitchenButton.interactable = true;
             //Debug.Log("unlocked kitchen!");
         }
-        if (bedroomButton != null)
-        {
-            bedroomButton.interactable = false;
-        }
-        else
-        {
-            bedroomButton.interactable = true;
-        }
-        
         /*if (kitchenItems == 9) // change back to 0 later please
         {
             Debug.Log("you put everything away!");
@@ -68,6 +62,16 @@ public class GameManager : MonoBehaviour
     public void BathroomInteractableTrue()
     {
         bathroomButton.interactable = true;
+    }
+    
+    public void BedroomInteractableTrue()
+    {
+        bedroomButton.interactable = true;
+    }
+
+    public void ShowerComInteractableTimer()
+    {
+        StartCoroutine(ButtonTimer());
     }
 
     public void OnCollisionEnter2D()
@@ -85,6 +89,17 @@ public class GameManager : MonoBehaviour
         //transition.SetTrigger("start");
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(levelIndex);
+    }
+    
+    IEnumerator ButtonTimer()
+    {
+        yield return new WaitForSeconds(10f);
+        Debug.Log("this would enable our button!");
+        showerComButton.interactable = true;
+        //dr.StartDialogue("RinseOff");
+
+        // Turn on the button & make it active
+        //yield return null;
     }
 
     

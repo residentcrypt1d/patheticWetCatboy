@@ -1,10 +1,7 @@
 ﻿title: placeholder
 ---
-<<ragdollNeutral characterSprite>>
 <<empty characterSprite>>
-freddie: this is placerholder dialogue
-<<ragdollBlush characterSprite>>
-freddie: this is more placeholder dialogue
+freddie: this is placeholder dialogue
 
 ===
 title: IntroductionPart0
@@ -153,21 +150,14 @@ narrator: lucifer points at himself and smiles, garnering a chuckle from chip.
 <<chipPeace characterSprite>>
 chip: *sigh* the faster we finish cleaning, the sooner we can get down to business. where do you wanna start?
 
-<<empty characterSprite>>
-freddie: guys it's the physics part of the physics game whoaaaa (cheer)
-
 ===
 title: RagdollTime
 ---
 <<empty characterSprite>>
 lucifer: okay, so we're gonna start here! in the living room. 
-
 chip: mhm... this looks manageable.
-
 lucifer: yeah! uh... cool, i'm just gonna hang out here, let me know if you don't know where to put something. or if you just wanna chat.
-
 chip: oh, so what you meant by help is that I'M doing all the work?
-
 lucifer: hahaha, kinda! i wanna watch you get all sweaty carrying my stuff around, is that so wrong?
 
 ===
@@ -228,7 +218,7 @@ lucifer: yeah, they've been up my ass for a couple of weeks, but i dunno what th
 lucifer: i can't pull a couple thousand dollars out of thin air, y'know?
 chip: yikes. no, that's insane. uh, i'll leave it there, then.
 lucifer: aw, you're not even gonna offer to pay it off for me? cold!
-chip: i'm not your sugar daddy, dude, my bank account is in the negatives.
+chip: i'm not your sugar daddy, my bank account is in the fucking negatives.
 lucifer: twinningggg
 
 ===
@@ -306,11 +296,6 @@ chip: got it.
 lucifer: and, like, don't stack anything if you can help it. i'm kiiinda prone to dropping things and i don't really wanna break the rest of my plates.
 
 ===
-title: LuciWtf
----
-lucifer: careful!!
-
-===
 title: KitchenComplete
 ---
 <<luciBack characterSprite>>
@@ -338,7 +323,7 @@ chip: so...?
 <<luciBack characterSprite>>
 lucifer: ehehehe, i just wanted to thank you. again.
 
-<<chipPeace characterSprite>>
+<<chipCross characterSprite>>
 chip: oh no... i can hear it in your voice, you're about to ask me for another favor. 
 chip: i mean, you're welcome, but i'm not doing anything else that ISN'T you.
 
@@ -357,7 +342,7 @@ chip: counter-question. don't people usually shower after–
 <<luciBack characterSprite>>
 lucifer: yeah, but to counter your counter, a piping hot shower usually gets me pretty excited. i dunno about you, though. 
 
-<<chipShirtless characterSprite>>
+<<empty characterSprite>>
 narrator: chip looks at the bathroom door, then back at lucifer.
 
 <<luciBack characterSprite>>
@@ -365,6 +350,7 @@ lucifer: haha, you can think it over if you want, just thought it'd be polite to
 
 <<chipShirtless characterSprite>>
 chip: think it over, he says, as if there's any answer other than yes.
+<<chipCross characterSprite>>
 chip: i've been itching to see you without those tiny shorts on for hours...
 
 <<luciBack characterSprite>>
@@ -385,7 +371,7 @@ chip: um... i'd–
 <<luciPoint characterSprite>>
 lucifer: wowwwwww, i didn't expect you to fold under just a teeny bit of pressur–
 
-<<chipShirtless characterSprite>>
+<<chipCross characterSprite>>
 chip: take them off.
 chip: lose the pants.
 
@@ -395,13 +381,11 @@ lucifer: ahhhh, hahaha! theeere we go.
 lucifer: your wish is my command.
 
 
-// NEW SPRITE OF LUCI WITH HIS BACK TURNED SLIDING HIS PANTS DOWN
+<<empty characterSprite>>
 narrator: with his back facing chip, he gently slips his fingers into the waistband and slides his pants down agonizingly slowly,
 
-// SEE ABOVE, PANTS FURTHER DOWN
 narrator: revealing his beautifully sculpted thighs, inch by inch.
 
-<<luciNakey characterSprite>>
 <<removeCollar characterSprite>>
 <<addCensor characterSprite>>
 narrator: now, with nothing left to the imagination, he turns to face chip again with a coy, impish smile on his face.
@@ -409,7 +393,7 @@ narrator: now, with nothing left to the imagination, he turns to face chip again
 <<luciNakey characterSprite>>
 lucifer: okay! your turn!
 
-<<chipPeace characterSprite>>
+<<chipFlustered characterSprite>>
 chip: wow. your pictures didn't do you justice, holy shit.
 chip: could you give me a moment, actually?
 
@@ -422,22 +406,107 @@ narrator: lucifer watches chip intently.
 ===
 title: ShowerStart
 ---
-// dialogue goes here
+<<empty characterSprite>>
+lucifer: heyyy, there you are! i was starting to worry you'd never come.
+chip: why, and miss all of this?
+narrator: chip pulls lucifer into a close embrace.
+chip: been waiting for this all day.
+lucifer: hehehe, me too.
+lucifer: wait, wait, wait, i totally forgot to ask this earlier.
+chip: hm?
+lucifer: is chip your real name?
+lucifer: i mean, like it's not a gamertag or anything, right?
+chip: yeah. insane that you're asking me this NOW, though.
+chip: "oh, this guy's butt-ass naked in the shower with me, maybe i should ask what his name is!"
+chip: it's a nickname, though, yeah.
+lucifer: i see. what for? chipothy, chiptopher...
+chip: chester. who the fuck names their kid chipothy?
+lucifer: hey, you never know. i knew a girl named abcde back in high school.
+chip: absidy? that's... not that bad?
+lucifer: no, no. spelled A-B-C-D-E. 
+chip: yeesh. that's horrible.
+lucifer: right? walking into a job interview and telling them that THAT'S your name?
+chip: ... 
+narrator: chip's not quite sure if an interviewer would be too pleased to see 'lucifer' on an application either, but... whatever.
+chip: okay, enough of this name talk.
+chip: which one of these fancy-looking soaps will the prince of darkness allow me to use today?
+lucifer: hmm... i'm feeling generous. take your pick. 
 
 ===
 title: ShowerComplete
 ---
-// dialogue goes here
+<<empty characterSprite>>
+chip: i'm sure you've been told but, fuck, you're hot.
+lucifer: mm, i like hearing you say it, though.
+narrator: lucifer wraps his arms around chip and rests his head on his shoulder.
+lucifer: i think you're pretty cute, too.
+chip: cute? that's it?
+narrator: lucifer laughs.
+lucifer: cute, funny, helpful... and sexy.
+narrator: lucifer gasps.
+lucifer: ooh! chip!
+narrator: lucifer springs back, grinning.
+chip: what?
+lucifer: you hear that?
+lucifer: the bed's calling our names.
+lucifer: oooOOoOoh, chippington....... come rest your godly figure upon me......
+narrator: chip laughs and rolls his eyes.
+chip: got a spare towel anywhere?
 
 ===
-title: ReturnToRagdollScene
+title: PreBedScene
 ---
-// dialogue goes here
+<<empty characterSprite>>
+narrator: in between passionate kisses, these two stumble out of the bathroom and into the living room, 
+narrator: where chip pins lucifer against the wall. he purrs in response.
+
+lucifer: your biceps... ughh, i just wanna sink my teeth into them~
+
+narrator: chip's hands travel from lucifer's waist down to his ass.
+
+chip: why stop there?
+
+lucifer: wowwww, you're gonna let me mark you all over?
+
+chip: if that's what you want. do it.
+
+narrator: lucifer laughs with barely contained lust, then pulls chip in for another kiss. 
+
+narrator: as soon as their lips part, chip lifts lucifer up into his arms and carries him off to his room.
+
+
+freddie: BREAKING THE FOURTH WALL!! final content warning if u don't wanna see like. conveniently cropped catboy sex
+
 
 ===
+title: LuciWtf
 ---
-title: BedroomAvailable
----
-// dialogue goes here
+<<empty characterSprite>>
+<<sequence1 backgroundSprite>>
+narrator: chip slides lucifer's sticker-covered laptop and clarinet case off to the side of the bed that touches the wall. 
+chip: that okay?
+lucifer: should be, but if you break my laptop, you're buying me a new one~
+chip: yeah, right, like i'd be able to afford that.
+narrator: he picks them up and gently sets them down on lucifer's side table.
+chip: there. now...
 
+<<sequence2 backgroundSprite>>
+chip: how much of what you put in that little profile of yours is true?
+lucifer: like what?
+chip: you say you're a sub but that's the opposite of what i've seen so far. 
+chip: you LOVE telling me what to do.
+lucifer: i do!
+
+<<sequence3 backgroundSprite>>
+lucifer: i have another request, actually~
+chip: lucifer, i swear to god.
+lucifer: no, no, you'll love this one!
+narrator: lucifer throws himself back into the bed, bouncing into the mountain of pillows and stuffed toys he's ammassed over the years.
+lucifer: don't hold back.
+
+<<sequence4 backgroundSprite>>
+narrator: always eager to please, chip obliged.
+
+<<sequence5 backgroundSprite>>
+narrator: and please he did.
 ===

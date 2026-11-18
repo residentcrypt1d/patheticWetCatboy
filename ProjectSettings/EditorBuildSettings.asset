@@ -35,6 +35,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/06_shower.unity
     guid: 38d45fa56ebba44619b373e833c02d82
+  - enabled: 1
+    path: Assets/Scenes/06_showerDone.unity
+    guid: f68c9d5cc76254abca3df2463cede6ab
+  - enabled: 1
+    path: Assets/Scenes/07_LR_p3.unity
+    guid: 299988c4dd8a84e4bafac8b58e4c9d30
+  - enabled: 1
+    path: Assets/Scenes/08_bedroom.unity
+    guid: 5c6f03277f281466ab8fff6e826b5481
+  - enabled: 1
+    path: Assets/Scenes/09_thanks4playing.unity
+    guid: 9b98d0d35b48e453799bafdd36c843b6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

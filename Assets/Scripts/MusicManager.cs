@@ -51,31 +51,22 @@ public class MusicManager : MonoBehaviour
         myMusic = GetComponent<AudioSource>();
         myMusic.clip = mxTitle;
         myMusic.Play();
+        myMusic.loop = true;
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
-            StartCoroutine(FadeOut(myMusic, 2.5f));
-            
+            //myMusic.Stop();
+            Debug.Log("music should be stopping now");
+            //StartCoroutine(FadeOut(myMusic, 2.5f));
+
             //AudioClip thisLevelMusic = mxMainLevel;
             //myMusic.clip = thisLevelMusic;
             //myMusic.loop = true;
             //myMusic.Play();
         }
-
-        if (SceneManager.GetActiveScene().buildIndex == 4)
-        {
-            StartCoroutine(FadeOut(myMusic, 3f));
-            //StopMusic();
-        }
-
-        /*public void PlayClickSound()
-    {
-        mySounds.clip = sfxClick;
-        mySounds.PlayOneShot(sfxClick);
-    }*/
 
         IEnumerator FadeOut(AudioSource audioSource, float fadeTime)
         {

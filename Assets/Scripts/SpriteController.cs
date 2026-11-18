@@ -111,13 +111,31 @@ public class SpriteController : MonoBehaviour
         newSprite = characterSprites[11];
         gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
     }
-
+    
     [YarnCommand("luciTeehee")]
     public void LuciTeehee()
     {
         newSprite = characterSprites[12];
         gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
     }
+    
+    [YarnCommand("chipCross")]
+    public void ChipCross()
+    {
+        newSprite = characterSprites[13];
+        gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
+    }
+    
+    [YarnCommand("chipFlustered")]
+    public void ChipFlustered()
+    {
+        newSprite = characterSprites[14];
+        gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
+    }
+    
+    // RAGDOLL SPRITES
+    
+
 
     [YarnCommand("removeShorts")]
     public void RemoveShorts()
