@@ -1543,7 +1543,7 @@ GameObject:
   - component: {fileID: 889911448}
   - component: {fileID: 889911447}
   - component: {fileID: 889911446}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2419,7 +2419,7 @@ GameObject:
   - component: {fileID: 1171411434}
   - component: {fileID: 1171411433}
   - component: {fileID: 1171411432}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: music stand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2661,7 +2661,10 @@ MonoBehaviour:
     m_Bits: 0
   grabbedObject: {fileID: 0}
   luciFaces: {fileID: 1612748948}
-  ragdollFaces: []
+  ragdollFaces:
+  - {fileID: 11400000, guid: d53708463d87b4e599b8f7b9e8abdb7a, type: 2}
+  - {fileID: 11400000, guid: 2425b9f29ae164ffbbc6998b110381d1, type: 2}
+  - {fileID: 11400000, guid: addcf4a64c1dc4a4bbb8ca11125e2b05, type: 2}
   dr: {fileID: 1088131023}
   myManager: {fileID: 654550828}
   appleCalled: 0

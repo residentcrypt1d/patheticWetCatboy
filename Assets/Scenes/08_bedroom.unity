@@ -1190,7 +1190,7 @@ MonoBehaviour:
   - {fileID: 4160424480298519542, guid: bf136fb2ba4244a56ab53214a42b0c54, type: 3}
   - {fileID: -3739711536891093848, guid: d7fb7e40b2d85473198fc4eefe360d1c, type: 3}
   - {fileID: 8743551447275531257, guid: 58627346ecf83416eace17f8b401d008, type: 3}
-  - {fileID: -8164485658104383605, guid: b6f16c8fbfb13487ea14eb4fae79f837, type: 3}
+  - {fileID: -1246034270881721367, guid: 4071b1c1410274dbbb294d0f7566fb60, type: 3}
   - {fileID: 6212381109487834956, guid: 972b3966f7d1b4c9ca73c11aeca2c71c, type: 3}
 --- !u!1 &723496118
 GameObject:
@@ -1570,6 +1570,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1986297034578247257, guid: bf4361e813af14e2cbc4db933d678b92, type: 3}
+      propertyPath: m_margin.w
+      value: -93.41374
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986297034578247257, guid: bf4361e813af14e2cbc4db933d678b92, type: 3}
+      propertyPath: m_margin.y
+      value: 26.792004
+      objectReference: {fileID: 0}
     - target: {fileID: 1986297035241313762, guid: bf4361e813af14e2cbc4db933d678b92, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
@@ -1598,6 +1606,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1986297035903198775, guid: bf4361e813af14e2cbc4db933d678b92, type: 3}
+      propertyPath: m_margin.w
+      value: -33.912697
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986297035903198775, guid: bf4361e813af14e2cbc4db933d678b92, type: 3}
+      propertyPath: m_margin.y
+      value: 3.1524334
+      objectReference: {fileID: 0}
     - target: {fileID: 4742244552657330611, guid: bf4361e813af14e2cbc4db933d678b92, type: 3}
       propertyPath: startNode
       value: LuciWtf
@@ -1614,6 +1630,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1777841954}
+    - target: {fileID: 5431577216109098741, guid: bf4361e813af14e2cbc4db933d678b92, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6220993895331113422, guid: bf4361e813af14e2cbc4db933d678b92, type: 3}
       propertyPath: m_Name
       value: Dialogue System Variant
