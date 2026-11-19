@@ -412,8 +412,8 @@ Transform:
   m_GameObject: {fileID: 94515727}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0255, y: 6.78, z: 0}
-  m_LocalScale: {x: 17.8711, y: 0.704, z: 1}
+  m_LocalPosition: {x: 0.0255, y: 11.8489, z: 0}
+  m_LocalScale: {x: 17.8711, y: 10.841741, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -893,8 +893,8 @@ Transform:
   m_GameObject: {fileID: 268005372}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.44, y: 1.0993, z: 0}
-  m_LocalScale: {x: 1.0509096, y: 12.065363, z: 1}
+  m_LocalPosition: {x: 20.6058, y: 1.0993, z: 0}
+  m_LocalScale: {x: 23.382528, y: 12.065363, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1031,8 +1031,8 @@ Transform:
   m_GameObject: {fileID: 419201546}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.429, y: 1.0993, z: 0}
-  m_LocalScale: {x: 1.0509096, y: 12.065363, z: 1}
+  m_LocalPosition: {x: -13.102, y: 1.0993, z: 0}
+  m_LocalScale: {x: 8.396873, y: 12.065363, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1297,7 +1297,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -8652578305493119435, guid: 2b8bc2d119b3049d98f9dc534f5ee26e, type: 2}
+  m_Sprite: {fileID: -3363225730140374811, guid: 2b8bc2d119b3049d98f9dc534f5ee26e, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1316,8 +1316,8 @@ Transform:
   m_GameObject: {fileID: 586568876}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: -4.99, z: 0}
-  m_LocalScale: {x: 17.8711, y: 1.18, z: 1}
+  m_LocalPosition: {x: -0, y: -5.96, z: 0}
+  m_LocalScale: {x: 35.27755, y: 2.32932, z: 1.974}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1474,6 +1474,7 @@ MonoBehaviour:
   kitchenButton: {fileID: 1577504144}
   bathroomButton: {fileID: 12657508}
   bedroomButton: {fileID: 1747257527}
+  showerComButton: {fileID: 0}
   livRoomItems: 0
   kitchenItems: 0
   dr: {fileID: 1424260234}
@@ -2015,7 +2016,6 @@ MonoBehaviour:
   ragdollShortsList:
   - {fileID: 11400000, guid: 1b17bd257a79c45b1a2226bb5dd7ab3e, type: 2}
   - {fileID: 11400000, guid: 24a6f4e0890fe40009a064bb28bf73e6, type: 2}
-  backgroundsBedroom: []
 --- !u!212 &964183846
 SpriteRenderer:
   serializedVersion: 2
@@ -2501,6 +2501,9 @@ MonoBehaviour:
   lampLayer:
     serializedVersion: 2
     m_Bits: 8192
+  showerLayer:
+    serializedVersion: 2
+    m_Bits: 0
   grabbedObject: {fileID: 0}
   luciFaces: {fileID: 1838626130}
   ragdollFaces:
@@ -2514,6 +2517,9 @@ MonoBehaviour:
   envelopeCalled: 0
   standCalled: 0
   lampCalled: 0
+  addSoap: 1
+  waitTime: 0.1
+  soapToSpawn: {fileID: 0}
 --- !u!4 &1231741604
 Transform:
   m_ObjectHideFlags: 0
